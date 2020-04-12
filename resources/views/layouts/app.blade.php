@@ -21,10 +21,15 @@
 
 <body id="body">
   <div class="page">
- 
+  
+  @if(\Request::is("/"))
     @include('inc.header')
-    @include('inc.sidebar')
+  @else 
+    @include('inc.header_pages')
+  @endif
 
+  @include('inc.sidebar')
+  
  {{-- MAIN CONTENT --}}
   <div class="container mt-4">
     @yield('content')
