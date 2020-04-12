@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Mail;
+use Session;
+use App\Mail\ContactEmail;
+use App\Mail\ProjectPlanEmail;
 use Illuminate\Http\Request;
 
 class EmailController extends Controller

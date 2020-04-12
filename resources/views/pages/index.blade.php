@@ -1,8 +1,7 @@
-@extends('layouts.mainpage')
+@extends('layouts.app')
 
 @section('content')
 
-<div class="container mt-4">
   <main role="main" class="m-auto px-5 main">
   
     <section class="pt-5 pb-2 mb-3 border-bottom text-justify">
@@ -159,6 +158,5 @@
     </div>  
     </section>
   </main>
-  </div>
   
 @endsection

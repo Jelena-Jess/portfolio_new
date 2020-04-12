@@ -22,15 +22,15 @@
 <body id="body">
   <div class="page">
  
-    @include('inc.header');
-    @include('inc.sidebar');
+    @include('inc.header')
+    @include('inc.sidebar')
 
  {{-- MAIN CONTENT --}}
-  <div class="container">
+  <div class="container mt-4">
     @yield('content')
   </div>
 
-  @include('inc.footer');
+  @include('inc.footer')
 
   </div>
 
