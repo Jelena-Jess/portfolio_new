@@ -29,9 +29,13 @@ $(window).scroll(function () {
   console.log($(window).scrollTop())
 if ($(window).scrollTop() > 850) {
   $('.navbar').addClass('navbar-fixed');
+  $('.nav-link').addClass('nav-link-fixed');
+  $('.nav-link-small').addClass('nav-link-small-fixed');
 }
 if ($(window).scrollTop() < 851) {
   $('.navbar').removeClass('navbar-fixed');
+  $('.nav-link').removeClass('nav-link-fixed');
+  $('.nav-link-small').removeClass('nav-link-small-fixed');
 }
 });
 });

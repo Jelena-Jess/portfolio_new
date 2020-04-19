@@ -7,14 +7,17 @@
     </div>
   </div>
   
-    <div class="section_all header-fix d-flex bd-highlight pt-5 pb-5">
-      <div class="m-auto pt-5 pb-5">
-        <a href="/"><h1 class="title text-center">Jessie&amp;Friday</h1></a>
-        <h6 class="text-center">A COOL SIMPLE WEBSITE FOR YOU?</h6>
-      </div>
+  <div class="d-flex flex-column section_all bd-highlight pt-1">
+    <div class="align-items-start">
+      @include('inc.navbar')
     </div>
-
-    @include('inc.navbar')
+      
+    <div class="header-fix pb-5">
+      <div class="pt-5 pb-5">
+      <a href="/"><h1 class="title text-center">Jessie&amp;Friday</h1></a>
+      <h6 class="text-center">A COOL SIMPLE WEBSITE FOR YOU?</h6>
+    </div>
+  </div>
 
 </header>
 

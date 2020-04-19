@@ -7,14 +7,20 @@
     </div>
   </div>
   
-  <div class="section header-fix d-flex bd-highlight pt-5 pb-5">
-    <div class="m-auto pt-5 pb-5">
-      <h1 class="title text-center">Jessie&amp;Friday</h1>
-      <h6 class="text-center">A COOL SIMPLE WEBSITE FOR YOU?</h6>
+  
+  <div class="d-flex flex-column section bd-highlight pt-1">
+    <div class="align-items-start">
+      @include('inc.navbar')
+    </div>
+      
+    <div class="header-fix">
+      <div class="pt-5 pb-5"> 
+        <h1 class="title text-center">Jessie&amp;Friday</h1>
+        <h6 class="text-center mb-4">A COOL SIMPLE WEBSITE FOR YOU?</h6>
+        <p class="header-contact m-auto text-light text-center"><a href="/contact">CONTACT US</a></p>
+      </div>
     </div>
   </div>
-
-  @include('inc.navbar')
 
 </header>
 
