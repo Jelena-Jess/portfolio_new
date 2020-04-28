@@ -18,7 +18,7 @@
 </head>
 
 <body id="body">
-  <div class="page">
+  <div>
   
   @if(\Request::is("/"))
     @include('inc.header')
@@ -29,7 +29,7 @@
   @include('inc.sidebar')
   
  {{-- MAIN CONTENT --}}
-  <div class="container mt-4">
+  <div class="container mt-1">
     @yield('content')
   </div>
 

@@ -1,4 +1,4 @@
-<footer class="mt-4 footer pb-4">
+<footer class="mt-2 footer pb-4">
   <div class="text-center">
     <div class="footer-upper section-footer">
       <div class="centered">
@@ -36,6 +36,13 @@
         <p>Graphic Design</p>
         <p>SEO Optimisation</p>  
       </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a class="mx-2 my-3" href="https://www.linkedin.com/in/jelena-p-25813a10b/"><i class="fab fa-linkedin"></i></a>  
+      <a class="mx-2 my-3" href="https://github.com/Jelena-Jess"><i class="fab fa-github-square"></i></a> 
+    </div>
+    <div>
+      <small>All rights reserved 	&copy; 2019-2020 Jessie&Friday</small>
     </div>
   </div>
 </footer>
