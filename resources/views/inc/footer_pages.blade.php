@@ -1,22 +1,6 @@
 <footer class="mt-2 footer pb-4">
   <div class="">
-    <div class="footer-upper section-footer">
-      {{-- <div class="centered">
-        <h1 class="footer-head pb-2 ">Like what you see?</h1>
-        <h4 class="footer-head pb-3">Get in touch and let's talk about your idea!</h4>
-        <p class="text-light"><a href="/project_plan" class="proposal">YOUR PROPOSAL</a></p>
-      </div> --}}
-
-      <div class="split left">
-        <h1>Contact us</h1>
-        <a href="" class="button">Contact</a>
-      </div>
-      <div class="split right">
-        <h1>Your Proposal</h1>
-        <a href="" class="button">Proposal</a>
-      </div>
-    </div>
-
+   
     <div class="main footer-bottom d-flex justify-content-around pt-5 mt-5">
       <div class="mx-2">
         <h4 class="logo mb-4" href="/">FRIDAY SOLUTIONS

@@ -10,7 +10,10 @@
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  
   <!-- Styles -->
   <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -33,7 +36,11 @@
     @yield('content')
   </div>
 
-  @include('inc.footer')
+  @if(\Request::is("/"))
+    @include('inc.footer')
+  @else 
+    @include('inc.footer_pages')
+  @endif
 
   </div>
 

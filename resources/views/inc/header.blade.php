@@ -14,9 +14,9 @@
         
       <div class="header-fix">
         <div class="pt-5 pb-5"> 
-          <h1 class="title text-center">Jessie&amp;Friday</h1>
-          <h6 class="text-center mb-4">A COOL SIMPLE WEBSITE FOR YOU?</h6>
-          <p class="header-contact m-auto text-light text-center"><a href="/contact">CONTACT US</a></p>
+          <h1 class="title text-center">Custom Websites </h1>
+          <h3 class="text-center mb-4">Transform your business and thrive.</h3>
+          <a href="/contact" class="button">CONTACT US</a>
         </div>
       </div>
     </div>

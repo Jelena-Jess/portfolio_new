@@ -1,14 +1,13 @@
 <nav class="mb-1 navbar navbar-expand-lg bg-blue d-none d-sm-none d-md-none d-lg-block">
-  <div class="d-flex justify-content-between">
-    <div>
-          <a href="#">
-            <img src="images/logo.jpg" alt="" class="logo">
-          </a>
+  <div class="main d-flex justify-content-between">
+    <div class="">
+      <a class="logo" href="/">FRIDAY SOLUTIONS
+      </a>
     </div>
     <div>
       <ul class="nav navbar-nav d-flex bd-highlight mb-7">
         <li class="px-2 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="/#bio">JESSIE&FRIDAY
+          <a class="nav-link hvr-underline-from-center" href="/#bio">ABOUT
           </a>
         </li>
         <li class="dropdown mydropdowncss px-2 nav-item bd-highlight nav">

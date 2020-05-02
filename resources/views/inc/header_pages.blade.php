@@ -14,8 +14,8 @@
       
     <div class="header-fix pb-5">
       <div class="pt-5 pb-5">
-      <a href="/"><h1 class="title text-center">Jessie&amp;Friday</h1></a>
-      <h6 class="text-center">A COOL SIMPLE WEBSITE FOR YOU?</h6>
+      <a href="/"><h1 class="title text-center">Custom Websites</h1></a>
+      <h3 class="text-center">Transform your business and thrive.</h3>
     </div>
   </div>
 

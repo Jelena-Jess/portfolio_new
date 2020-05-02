@@ -89,3 +89,23 @@ function closeNav() {
 }
 
 
+//FOOTER UPPER SPLIT PAGE
+const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+const footerupper = document.querySelector('.footer-upper');
+
+left.addEventListener('mouseenter', () => {
+  footerupper.classList.add('hover-left');
+});
+
+left.addEventListener('mouseleave', () => {
+  footerupper.classList.remove('hover-left');
+});
+
+right.addEventListener('mouseenter', () => {
+  footerupper.classList.add('hover-right');
+});
+
+right.addEventListener('mouseleave', () => {
+  footerupper.classList.remove('hover-right');
+});
