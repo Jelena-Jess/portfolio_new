@@ -4,28 +4,28 @@
       <ul class="custom-scrollbar nav flex-column text-center ml-auto mr-auto sidebar-nav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-window-close fa-sm"></i></a>
       
-          <li class="nav-item">
+          <li class="nav-item mt-5">
               <a class="nav-link" href="/#bio">
               <span><i class="fas fa-fingerprint sidebar-icon"></i></span>
-              JESSIE&FRIDAY
+              ABOUT
               </a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="/#skills">
-              <span><i class="fas fa-brain"></i></span>
-              TECHNOLOGIES
+              <span><i class="fas fa-hands-helping"></i></span>
+              SERVICES
               </a>
           </li>
               <li class="nav-item">
               <a class="nav-link" href="/#projects">
-                  <span><i class="fas fa-cut"></i></span>
-              PROJECTS
+                  <span><i class="fas fa-brain"></i></span>
+              TECHNOLOGIES
               </a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="/#help">
-                  <span><i class="fas fa-hands-helping"></i></span>
-              SERVICES
+                  <span><i class="fas fa-cut"></i></span>
+              PROJECTS
               </a>
           </li>
           <li class="nav-item">

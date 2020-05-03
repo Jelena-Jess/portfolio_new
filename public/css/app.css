@@ -11019,6 +11019,8 @@ body {
 
 .button:hover {
   border-color: #e48395;
+  text-decoration: none;
+  color: #fff;
 }
 
 .split {
@@ -11436,60 +11438,6 @@ h4 {
   background-color: transparent;
 }
 
-/******* SIDEBAR ********/
-
-.sidebar {
-  height: 30%;
-  width: 0;
-  border-radius: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-image: url("/images/blur.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding: 0px !important;
-}
-
-.sidebar a {
-  text-decoration: none;
-  padding: 10px 0;
-  color: #fff;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #355C7D;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 47.5%;
-  font-size: 36px;
-  z-index: 0;
-  color: #FE4365;
-  padding: 0px !important;
-}
-
-.sidebar .closebtn:hover {
-  color: #355C7D;
-}
-
-.sidebar .nav-link {
-  font-size: 15px;
-}
-
-.side-nav {
-  padding: 0 !important;
-}
-
 /******* SKILLS ********/
 
 .skill {
@@ -11841,13 +11789,56 @@ img {
   }
 }
 
-@media screen and (min-width: 771px) and (max-width: 992px) {
-  .sidebar {
-    padding-top: 10px;
+@media all and (max-width: 992px) {
+  /******* SIDEBAR ********/
+
+  .openbtn {
+    z-index: 1;
+    font-size: 1.5rem;
   }
 
-  .sidebar a {
-    font-size: 18px;
+  .sidebar {
+    height: 100vh;
+    width: 0;
+    border-radius: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 0px !important;
+  }
+
+  .sidebar .nav-link {
+    text-decoration: none;
+    margin: 30px 0;
+    font-size: 2rem;
+    color: #FE4365;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar .nav-link:hover {
+    color: #355C7D !important;
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 47.5%;
+    font-size: 3rem;
+    color: #FE4365;
+    padding: 0 !important;
+  }
+
+  .sidebar .closebtn:hover {
+    color: #355C7D;
+  }
+
+  .side-nav {
+    padding: 0 !important;
   }
 
   /* .{padding-top: 0px !important;} */
