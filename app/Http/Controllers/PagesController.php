@@ -10,6 +10,10 @@ class PagesController extends Controller
         return view('pages.index');
         }
 
+     public function projects(){
+        return view('pages.projects');
+        }
+
     public function project1(){
         $title='Electronic diary for schools';
         return view('pages.project1')->with('title', $title);

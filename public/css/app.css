@@ -10916,19 +10916,8 @@ body {
 
 .section_all {
   width: 100%;
-  height: 40vh;
-  background-image: url("/images/blur.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 3px 5px rgba(254, 67, 101, 0.3);
-}
-
-.section_element {
-  width: 100%;
-  height: auto;
-  background-image: url("/images/back-img-dark2.jpg");
+  height: 30vh;
+  background-image: url("/images/header_img.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -10966,36 +10955,6 @@ body {
   margin: auto;
 }
 
-.footer {
-  flex-shrink: 0;
-  background-color: rgba(49, 72, 104, 0.9);
-  color: #fff;
-  bottom: 0px;
-  box-shadow: 0 -3px 5px rgba(53, 92, 125, 0.5);
-}
-
-.footer-bottom p {
-  color: #fff !important;
-  text-align: start;
-  font-size: 0.8rem;
-}
-
-.footer-upper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.footer-upper h1 {
-  font-size: 3rem;
-  color: #fff;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-}
-
 .button {
   display: block;
   position: relative;
@@ -11023,61 +10982,94 @@ body {
   color: #fff;
 }
 
-.split {
+.footer {
+  flex-shrink: 0;
+  background-color: rgba(49, 72, 104, 0.9);
+  color: #fff;
+  bottom: 0px;
+}
+
+.footer-bottom p {
+  color: #fff !important;
+  text-align: start;
+  font-size: 1rem;
+}
+
+.footer-upper {
+  position: relative;
+  padding: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 50vh;
+  background-color: #eca9b5;
+  /* -webkit-filter: blur(0.5px);
+  filter: blur(0.5px); */
+}
+
+.footer-upper h1 {
+  font-size: 3rem;
+  color: #fff;
   position: absolute;
-  width: 50%;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.split.center {
+  position: absolute;
+  width: 33.3%;
   height: 100%;
   overflow: hidden;
+  left: 33.3%;
+  background-color: #eca9b5;
+  transition: 1000ms all ease-in-out;
+  z-index: 0;
 }
 
 .split.left {
+  position: absolute;
+  width: 33.3%;
+  height: 100%;
+  overflow: hidden;
   left: 0;
-  background-color: rgba(237, 238, 242, 0.5);
-}
-
-.split.right {
-  right: 0;
-  background-color: rgba(53, 92, 125, 0.5);
-}
-
-.split.left,
-.split.right {
+  background-color: #fff;
   transition: 1000ms all ease-in-out;
+  z-index: 2;
+}
+
+.split.right {
+  position: absolute;
+  width: 33.3%;
+  height: 100%;
+  overflow: hidden;
+  right: 0;
+  background-color: #7697b4;
+  transition: 1000ms all ease-in-out;
+  z-index: 2;
 }
 
 .hover-left .left {
-  width: 75%;
-}
-
-.hover-left .right {
-  width: 25%;
-}
-
-.hover-left {
-  z-index: 2;
+  width: 40%;
 }
 
 .hover-right .right {
-  width: 75%;
+  width: 40%;
 }
 
-.hover-right .left {
-  width: 25%;
+.hover-center .center {
+  width: 33.3%;
+  z-index: 3;
+  transition: 1000ms all ease-in-out;
 }
 
-.hover-right {
-  z-index: 2;
+.hover-center .left {
+  width: 30%;
 }
 
-.section-footer {
-  width: 100%;
-  height: 50vh;
-  background-image: url("/images/footer.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 3px 5px rgba(254, 67, 101, 0.3);
+.hover-center .right {
+  width: 30%;
 }
 
 .centered {
@@ -11088,16 +11080,6 @@ body {
   background-color: rgba(53, 92, 125, 0.8);
   padding: 10px 80px;
   border-radius: 5px;
-}
-
-.footer-upper img {
-  padding: 0px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 260px;
-  /* -webkit-filter: blur(0.5px);
-  filter: blur(0.5px); */
 }
 
 td,
@@ -11218,6 +11200,31 @@ h4 {
   color: #fff !important;
 }
 
+/******* PLANS ********/
+
+.bg {
+  width: 20vw;
+  height: auto;
+  margin: 0 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgba(49, 72, 104, 0.9);
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bg1 {
+  background-image: url("/images/plan1.png");
+}
+
+.bg2 {
+  background-image: url("/images/plan2.png");
+}
+
+.bg3 {
+  background-image: url("/images/plan3.png");
+}
+
 /******* BIG FORM ********/
 
 .project_plan {
@@ -11232,7 +11239,7 @@ h4 {
 .btn {
   background-color: #e48395;
   color: #fff;
-  border: solid #fff 1px;
+  border: solid #fff 2px;
   border-radius: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -11302,26 +11309,12 @@ h4 {
 /****** HEADER AND NAVBAR ******/
 
 .header-fix {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
+  width: 80vw;
+  margin-top: 15%;
 }
 
-.header-contact {
-  width: 50%;
-  display: block;
-  padding: 6px;
-  border-radius: 5px;
-  background-color: #e48395;
-  border: 1px solid #fff;
-  transition-duration: 0.5s;
-}
-
-.header-contact:hover {
-  border: 1px solid #e48395;
-  color: #fff;
-  transition-duration: 0.5s;
+.header-fix-all .title {
+  font-size: 4rem;
 }
 
 .navbar {
@@ -11436,6 +11429,23 @@ h4 {
   display: block;
   margin-top: 0;
   background-color: transparent;
+}
+
+/******* CARD ********/
+
+.cards {
+  margin: 10px;
+  width: 30%;
+  border: 1px solid #FE4365;
+  border-radius: 2%;
+}
+
+.cards:hover {
+  background-color: rgba(118, 151, 180, 0.1);
+}
+
+.card-body h4 {
+  color: #314455;
 }
 
 /******* SKILLS ********/
@@ -11768,6 +11778,11 @@ img {
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+  .header-fix {
+    width: 80vw;
+    margin-top: 20%;
+  }
+
   .inbox {
     width: 75%;
   }
@@ -11787,6 +11802,14 @@ img {
   .project {
     width: 40vw;
   }
+
+  .bg {
+    width: 30%;
+  }
+
+  .card {
+    width: 27%;
+  }
 }
 
 @media all and (max-width: 992px) {
@@ -11795,6 +11818,11 @@ img {
   .openbtn {
     z-index: 1;
     font-size: 1.5rem;
+  }
+
+  .header-fix {
+    width: 80vw;
+    margin-top: 25%;
   }
 
   .sidebar {
@@ -11827,7 +11855,7 @@ img {
   .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 47.5%;
+    right: 3%;
     font-size: 3rem;
     color: #FE4365;
     padding: 0 !important;
@@ -11852,7 +11880,7 @@ img {
   }
 
   .main {
-    width: 90%;
+    width: 100%;
   }
 
   .section-footer {
@@ -11864,7 +11892,7 @@ img {
   }
 
   .bio {
-    width: 100%;
+    width: 90%;
   }
 
   .footer-upper h3 {
@@ -11884,6 +11912,14 @@ img {
   .btn {
     padding: 0.1rem 0.2rem !important;
   }
+
+  .bg {
+    width: 30%;
+  }
+
+  .card {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 770px) {
@@ -11891,8 +11927,22 @@ img {
     height: 90px;
   }
 
+  .header-fix {
+    width: 90vw;
+    margin-top: 30%;
+  }
+
+  .header-fix h1 {
+    font-size: 4.5rem;
+  }
+
   .section-footer {
     height: 40vh;
+  }
+
+  .footer-bottom div {
+    width: 40%;
+    margin-left: 8% !important;
   }
 
   .sidebar {
@@ -11905,7 +11955,7 @@ img {
   }
 
   .sidebar .closebtn {
-    right: 45.5%;
+    right: 4%;
   }
 
   .main {
@@ -11917,7 +11967,7 @@ img {
   }
 
   .bio {
-    width: 100%;
+    width: 90%;
   }
 
   .inbox {
@@ -11965,10 +12015,6 @@ img {
     width: 60%;
   }
 
-  .bio {
-    width: 100%;
-  }
-
   .projects {
     width: 70%;
   }
@@ -11976,11 +12022,34 @@ img {
   .btn {
     padding: 0.2rem 0.4rem !important;
   }
+
+  .bg {
+    width: 50%;
+    margin: 10px auto !important;
+  }
+
+  .cards {
+    width: 70%;
+    margin: 10px auto !important;
+  }
 }
 
 @media screen and (min-width: 401px) and (max-width: 600px) {
   .container {
     height: 90px;
+  }
+
+  .header-fix {
+    width: 100vw;
+    margin-top: 40%;
+  }
+
+  .header-fix h1 {
+    font-size: 4rem;
+  }
+
+  .header-fix h3 {
+    font-size: 1.3rem;
   }
 
   .sidebar {
@@ -11992,12 +12061,12 @@ img {
   }
 
   .sidebar .closebtn {
-    right: 44%;
+    right: 5%;
   }
 
   .main {
-    width: 90%;
-    padding: 0px !important;
+    width: 100%;
+    padding: 0 !important;
   }
 
   .section-footer {
@@ -12014,13 +12083,12 @@ img {
     font-size: 0.9rem;
   }
 
-  #services {
-    height: auto;
+  .footer-bottom div {
+    width: 40%;
   }
 
-  .bio {
-    width: 100%;
-    padding: 0 30px !important;
+  #services {
+    height: auto;
   }
 
   .inbox {
@@ -12112,11 +12180,37 @@ img {
   .btn {
     padding: 0.2rem 0.4rem !important;
   }
+
+  .bg {
+    width: 50%;
+    margin: 10px auto !important;
+  }
+
+  .bg p {
+    padding: 0 !important;
+  }
+
+  .cards {
+    width: 70%;
+    margin: 10px auto !important;
+  }
 }
 
 @media all and (max-width: 400px) {
   .container {
     height: 90px;
+  }
+
+  .header-fix {
+    width: 100vw;
+  }
+
+  .header-fix h1 {
+    font-size: 2.3rem;
+  }
+
+  .header-fix h3 {
+    font-size: 1rem;
   }
 
   .sidebar {
@@ -12128,7 +12222,7 @@ img {
   }
 
   .sidebar .closebtn {
-    right: 40%;
+    right: 7%;
   }
 
   .main {
@@ -12149,9 +12243,8 @@ img {
     font-size: 0.9rem;
   }
 
-  .bio {
-    width: 100%;
-    padding: 0 20px !important;
+  .footer-bottom div {
+    width: 40%;
   }
 
   .inbox {
@@ -12242,6 +12335,20 @@ img {
 
   .btn {
     padding: 0.2rem 0.4rem !important;
+  }
+
+  .bg {
+    width: 50%;
+    margin: 10px auto !important;
+  }
+
+  .bg p {
+    padding: 0 !important;
+  }
+
+  .cards {
+    width: 70%;
+    margin: 10px auto !important;
   }
 }
 

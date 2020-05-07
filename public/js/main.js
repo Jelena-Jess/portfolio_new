@@ -80,7 +80,8 @@ for (i = 0; i < acc.length; i++) {
 
 //SIDEBAR
 function openNav() {
-  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.width = "100vw";
+  document.getElementById("main").style.marginLeft= "100vw";
 }
 
 function closeNav() {
@@ -92,6 +93,7 @@ function closeNav() {
 //FOOTER UPPER SPLIT PAGE
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
+const center = document.querySelector('.center');
 const footerupper = document.querySelector('.footer-upper');
 
 left.addEventListener('mouseenter', () => {
@@ -108,4 +110,12 @@ right.addEventListener('mouseenter', () => {
 
 right.addEventListener('mouseleave', () => {
   footerupper.classList.remove('hover-right');
+});
+
+center.addEventListener('mouseenter', () => {
+  footerupper.classList.add('hover-center');
+});
+
+center.addEventListener('mouseleave', () => {
+  footerupper.classList.remove('hover-center');
 });

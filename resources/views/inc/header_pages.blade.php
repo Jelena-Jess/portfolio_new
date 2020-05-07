@@ -11,15 +11,15 @@
     <div class="align-items-start">
       @include('inc.navbar')
     </div>
-      
-    <div class="header-fix pb-5">
-      <div class="pt-5 pb-5">
-      <a href="/"><h1 class="title text-center">Custom Websites</h1></a>
-      <h3 class="text-center">Transform your business and thrive.</h3>
+    <div class="align-self-start d-lg-none d-xl-none pt-2 pl-3">
+      <a class="logo" href="/">FRIDAY SOLUTIONS</a>
+    </div>
+    <div class="header-fix-all p-5">
+      <div class="py-5">
+        <h1 class="title text-start">Website design & development</h1>
+      </div>
     </div>
   </div>
-
-</header>
 
 </div>
 <a class="gotop" href=""><i class="fa fa-arrow-up"></i></a>

@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', 'PagesController@index');
+Route::get('/projects', 'PagesController@projects');
 Route::get('/project1', 'PagesController@project1');
 Route::get('/project2', 'PagesController@project2');
 Route::get('/project3', 'PagesController@project3');
