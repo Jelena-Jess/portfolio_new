@@ -30,19 +30,18 @@ class PagesController extends Controller
         }
     
     public function website(){
-        return view('pages.website');
+        $title='Web design & dev';
+        return view('pages.website')->with('title', $title);
         }
 
     public function logo(){
-        return view('pages.logo');
-        }
-
-    public function wordpress(){
-        return view('pages.wordpress');
+        $title='Logo Design';
+        return view('pages.logo')->with('title', $title);
         }
 
     public function content(){
-        return view('pages.content');
+        $title='Content creation';
+        return view('pages.content')->with('title', $title);
         }
         
 }

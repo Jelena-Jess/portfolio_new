@@ -32,7 +32,7 @@
   @include('inc.sidebar')
   
  {{-- MAIN CONTENT --}}
-  <div class="container mt-1">
+  <div class="container">
     @yield('content')
   </div>
 

@@ -14,10 +14,9 @@
           <a class="nav-link" href="/#services">SERVICES
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/website">WEB DESIGN</a>
-            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/logo">WEB DEVELOPMENT</a>
+            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/website">WEBSITE DESIGN</a>
             <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/logo">LOGO DESIGN</a>
-            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/content">SEO OPTIMISATION</a>
+            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/content">CONTENT CREATION</a>
           </div>
         </li>
         <li class="px-2 nav-item bd-highlight nav">

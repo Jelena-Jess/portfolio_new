@@ -28,30 +28,35 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 3px 5px rgba(254, 67, 101, 0.5);
+}
+.section-blur {
+  background: rgba(228, 204, 213, 0.2);
+  height: 100%;
+  width: 100%;
 }
 .section_all {
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   background-image: url("/images/header_img.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 3px 5px rgba(254, 67, 101, 0.3);
+  border-bottom: 6px solid #bdb4b4;
 }
+
 .back-light {
- background-color: #ecedf1;
+ background-color: #f3e9ed;
 }
 
 .back-dark {
-  background-color: rgba(49, 72, 104, 0.9);
+  background-color: #383434;
 }
 
-.title {
-  font-size: 4rem;
-  font-family: 'Rajdhani', sans-serif;
+.back-pink {
+  background-color: #bdb4b480;
 }
+
 
 .logo{
   font-family: 'Gugi', cursive;
@@ -81,7 +86,7 @@ html, body {
   text-align: center;
   color: #fff;
   border: #fff solid 0.2rem;
-  background-color: rgb(228, 131, 149);
+  background-color: rgb(252, 92, 121);
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -91,14 +96,18 @@ html, body {
 }
 
 .button:hover {
-  border-color: rgb(228, 131, 149);
+  border-color: rgb(252, 92, 121);
   text-decoration: none;
   color: #fff;
 }
 
+.center-split {
+  width: 50%;
+}
+
 .footer{
   flex-shrink: 0;
-  background-color: rgb(49, 72, 104, 0.9);
+  background-color: #383434;
   color: #fff;
   bottom: 0px;
   // box-shadow: 0 -3px 5px rgba(53, 92, 125, 0.5);
@@ -115,8 +124,8 @@ html, body {
   padding: 0px;
   object-fit: cover;
   width: 100%;
-  height: 50vh;
-  background-color: rgb(236, 169, 181);
+  height: 60vh;
+  background-color: #dfb6bb;
   /* -webkit-filter: blur(0.5px);
   filter: blur(0.5px); */
 }
@@ -137,7 +146,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   left: 33.3%;
-  background-color: rgb(236, 169, 181);
+  background-color: #dfb6bb;
   transition: 1000ms all ease-in-out;
   z-index: 0;
 }
@@ -148,7 +157,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   left: 0;
-  background-color: #fff;
+  background-color: #f3e9ed;
   transition: 1000ms all ease-in-out;
   z-index: 2;
 }
@@ -159,7 +168,8 @@ html, body {
   height: 100%;
   overflow: hidden;
   right: 0;
-  background-color: rgb(118, 151, 180); 
+  background-color: #bdb4b4;
+  ; 
   transition: 1000ms all ease-in-out;
   z-index: 2;
 }
@@ -185,8 +195,6 @@ html, body {
 }
 
 
-
-
 .centered {
   position: absolute;
   top: 50%;
@@ -205,6 +213,7 @@ td, th {
   vertical-align: middle;
 }
 .title {
+  font-family: 'Rajdhani', sans-serif;
   color: #FE4365;
   font-size: 5rem;
   -webkit-animation-name: title; /* Safari 4.0 - 8.0 */
@@ -226,7 +235,7 @@ to {color: #FE4365;}
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: #355C7D;
+  color: #383434;
   font-family: 'Rajdhani', sans-serif;
 } 
 
@@ -237,12 +246,7 @@ p {
 }
 
 .fab {
-  color: #FE4365;
-  font-size: 18px;
-}
-.fab:hover {
-  color: #355C7D;
-  font-size: 18px;
+  color: #383434 !important;
 }
 
 .service-title {
@@ -293,8 +297,13 @@ p {
 }
 
 /******* PLANS ********/
+.monthly-plans
+{
+  width: 80%;
+  margin: 0 auto;
+}
 .bg {
-  width: 20vw;
+  width: 27vw;
   height: auto;
   margin: 0 5px;
   background-position: center;
@@ -313,6 +322,25 @@ p {
   background-image: url("/images/plan3.png");
 }
 
+.plan-box {
+  width: 30%;
+  border: 2px solid #383434 !important;
+  position: relative;
+}
+.plan-box::before {
+  position: relative;
+  Content: "";
+  overflow: hidden;
+}
+.icon {
+  position: absolute;
+  z-index: 2;
+  top: -12px;
+  right: 45%;
+  background-color: #f3e9ed;
+  padding: 0 5px;
+}
+
 
 /******* BIG FORM ********/
 .project_plan {
@@ -323,18 +351,18 @@ p {
   margin: auto;
 }
 .btn {
-  background-color: rgb(228, 131, 149);
+  background-color: rgb(252, 92, 121);
   color: #fff;
   border: solid #fff 2px;
   border-radius: 5px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.3rem 0.6rem !important;
+  padding: 0.5rem 2rem !important;
 }
 .btn:hover {
   color: #fff;
-  border: solid rgb(228, 131, 149) 2px;
+  border: solid rgb(252, 92, 121) 2px;
   border-radius: 5px;
 }
 .promo {
@@ -392,9 +420,13 @@ p {
   width: 80vw;
   margin-top: 15%;
 } 
-.header-fix-all .title{
-  font-size: 4rem;
-} 
+.title-pages {
+  font-family: 'Rajdhani', sans-serif;
+  color: #bdb4b4;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-bottom: -37px !important;
+}
 
 .navbar {
   position: relative;
@@ -455,17 +487,6 @@ p {
 .nav-page:hover{
   color: #FE4365;
 }
-.fa, .fab {
-  color: #fff;
-}
-
-.fab {
-  font-size: 1.5rem;
-}
-.fab:hover {
-  color: #FE4365;
-  font-size: 1.5rem;
-}
 
 .text-blue {
   color: #355C7D;
@@ -483,7 +504,7 @@ p {
   color: #FE4365;;
 }
 .fa-bars:hover {
-  color: #355C7D;
+  color: #383434;
 }
 .dropdown-menu {
   border-color: #FE4365;
@@ -502,15 +523,19 @@ p {
 .cards {
   margin: 10px;
   width: 30%;
-  border: 1px solid #FE4365;
+  border: 10px solid #e9dcde;
   border-radius: 2%;
 }
 .cards:hover {
-  background-color: rgba(118, 151, 180, 0.1);
+  background-color: #e9dcde;
 }
 
 .card-body h4 {
   color: #314455;
+}
+
+.card {
+  width: 30%;
 }
 
 
@@ -889,13 +914,13 @@ img {
   height: 83px;
   font-size: 17px;
   color: #fff;
-  border: 2px solid rgb(99, 148, 190);
   border-radius: 50%;
-	background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, #355C7D 0%, rgb(102, 153, 197)  10%, rgba(228, 131, 149, 0.5) 100%, rgb(228, 131, 149) 95%);
+  background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, #383434 0%, 
+  rgb(102, 153, 197)  10%, rgba(228, 131, 149, 0.5) 100%, rgb(228, 131, 149) 95%);
   background-image: -webkit-radial-gradient(45px 45px, circle cover,
-  #355C7D, rgb(228, 131, 149));
+  #383434, rgb(228, 131, 149));
   background-image: linear-gradient(45px 45px 45deg, circle cover, 
-  #355C7D 0%, rgb(102, 153, 197)  10%, rgb(228, 131, 149) 100%, 
+  #383434 0%, rgb(102, 153, 197)  10%, rgb(228, 131, 149) 100%, 
   rgba(228, 131, 149) 95%);
   background-color: rgb(228, 131, 149);
   font-size: 17px;
@@ -907,15 +932,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(228, 131, 149);
-	background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, #355C7D 100%, #355C7D 95%);
-	background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(228, 131, 149), #355C7D);
-	background-image: linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, #355C7D 100%, #355C7D 95%);
+	background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, #383434 100%, #383434 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(228, 131, 149), #383434);
+	background-image: linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, #383434 100%, #383434 95%);
   background-color: rgb(228, 131, 149);
   color: #fff;
 }
 
-
+.bio {
+  width: 60%;
+}
 
 @media screen and (min-width:993px) and (max-width:1200px){
   .header-fix {
@@ -935,8 +961,13 @@ img {
   .project {
     width: 40vw;
   }
+  .monthly-plans
+  {
+    width: 90%;
+    margin: 0 auto;
+  }
   .bg {
-    width: 30%;
+    width: 33%;
   }
   
 .card {
@@ -954,6 +985,11 @@ img {
   width: 80vw;
   margin-top: 25%;
 } 
+
+.footer-upper{
+  height: 70vh;
+}
+
 .sidebar {
   height: 100vh;
   width: 0;
@@ -978,7 +1014,7 @@ img {
 }
 
 .sidebar .nav-link:hover {
-  color: #355C7D !important;
+  color: #383434 !important;
 }
 
 .sidebar .closebtn {
@@ -990,7 +1026,7 @@ img {
   padding: 0 !important;
 }
 .sidebar .closebtn:hover {
- color: #355C7D;
+ color: #383434;
 }
 .side-nav {
   padding: 0 !important;
@@ -1024,17 +1060,60 @@ img {
   width: 50vw;
 }
 .btn {
-  padding: 0.1rem 0.2rem !important;
+  padding: 0.4rem 1.8rem !important;
 }
+.monthly-plans
+  {
+    width: 90%;
+  }
 .bg {
-  width: 30%;
+  width: 60%;
+  margin: 1.5rem auto;
 }
+  
 .card {
   width: 40%;
+}
+.plan-box {
+  width: 80%;
 }
 }
 
 @media screen and (min-width:601px) and (max-width:770px){
+  .footer-upper{
+    width: 100%;
+    height: auto;
+    background-color: #f3e9ed;
+    padding: 20px 0;
+  }
+  .split {
+    padding: 30px;
+  }
+  .split.center {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 10px auto;
+  }
+  
+  .split.left {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 0 auto 10px auto;
+    border: solid #e9dcde 10px;
+  }
+  
+  .split.right {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 10px auto 0 auto;
+  }
+
   .container {
     height: 90px; 
   }
@@ -1107,20 +1186,62 @@ img {
 .projects {
   width: 70%;
 }
-.btn {
-  padding: 0.2rem 0.4rem !important;
-}
+.monthly-plans
+  {
+    width: 90%;
+  }
 .bg {
-  width: 50%;
-  margin: 10px auto !important;
+  width: 70%;
+  margin: 1.5rem auto;
 }
 .cards {
   width: 70%;
   margin: 10px auto !important;
 }
+.center-split {
+  width: 80%;
+}
 }
 
 @media screen and (min-width:401px) and (max-width:600px){
+  .footer-upper{
+    width: 100%;
+    height: auto;
+    background-color: #f3e9ed;
+    padding: 20px 0;
+  }
+
+  .center-split {
+    width: 80%;
+  }
+
+  .split {
+    padding: 30px;
+  }
+  .split.center {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 10px auto;
+  }
+  
+  .split.left {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 0 auto 10px auto;
+    border: solid #e9dcde 10px;
+  }
+  
+  .split.right {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 10px auto 0 auto;
+  }
   .container {
     height: 90px; 
   }
@@ -1231,15 +1352,13 @@ img {
   height: 65px;
   font-size: 13px;
 }
-.btn {
-  padding: 0.2rem 0.4rem !important;
-}
+.monthly-plans
+  {
+    width: 90%;
+  }
 .bg {
-  width: 50%;
-  margin: 10px auto !important;
-}
-.bg p{
-  padding: 0 !important;
+  width: 80%;
+  margin: 1.5rem auto;
 }
 .cards {
   width: 70%;
@@ -1248,6 +1367,44 @@ img {
 }
 
 @media all and (max-width:400px){
+  .footer-upper{
+    width: 100%;
+    height: auto;
+    background-color: #f3e9ed;
+    padding: 20px 0;
+  }
+
+  .center-split {
+    width: 80%;
+  }
+
+  .split {
+    padding: 30px;
+  }
+  .split.center {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 10px auto;
+  }
+  
+  .split.left {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 0 auto 10px auto;
+    border: solid #e9dcde 10px;
+  }
+  
+  .split.right {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin: 10px auto 0 auto;
+  }
   .container {
     height: 90px; 
   }
@@ -1353,15 +1510,13 @@ img {
 .projects {
   width: 90%;
 }
-.btn {
-  padding: 0.2rem 0.4rem !important;
-}
+.monthly-plans
+  {
+    width: 90%;
+  }
 .bg {
-  width: 50%;
-  margin: 10px auto !important;
-}
-.bg p {
-  padding: 0 !important;
+  width: 80%;
+  margin: 1.5rem auto;
 }
 .cards {
   width: 70%;

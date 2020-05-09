@@ -1,4 +1,4 @@
-<footer class="mt-2 footer pb-4">
+<footer class="footer pb-4">
   <div class="">
    
     <div class="main footer-bottom d-flex justify-content-around pt-5 mt-5">

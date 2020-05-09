@@ -5,16 +5,26 @@
 
   <section class="col-12 py-5 text-justify back-light">
     <div class="main py-5">
-      <h3 class="text-center pb-4">Website Design — Your Picture Perfect</h3>
-      <p> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</p>
-      <p>The website design process starts with a sketch. First, we discuss wireframes, page layouts, and menu structures. Digital design concepts are then created. You will be presented with a variety of website design concepts to review. Feedback on the design concepts is essential to give you the opportunity to express your thoughts on the design and make alterations where desired before the final sign-off.</p>
-      <p>Once the design has been finalised, the creation of the website can begin. The website development process starts by taking the graphical elements (colours, fonts, layout, images) defined in the design process and coding them using web industry standards (PHP, HTML5, CSS3, JS, jQuery). This is typically done by first coding the home page, followed by templates for the interior pages. When the website is ready for review you will be supplied with login details to view the website before it is launched to the public. You will also be supplied with instructions on how to update your website.</p>
-      <p>All of the websites that we create have been tailor-made and coded from scratch.</p>
+      <h1 class="text-center text-dark pb-4">Your Picture Perfect</h1>
+      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
+        <div class="center-split px-lg-5 px-md-4">
+          {{-- <p>The website design process starts with a sketch. First, we discuss wireframes, page layouts, and menu structures. Digital design concepts are then created. You will be presented with a variety of website design concepts to review. Feedback on the design concepts is essential to give you the opportunity to express your thoughts on the design and make alterations where desired before the final sign-off.</p>
+          <p>Once the design has been finalised, the creation of the website can begin. The website development process starts by taking the graphical elements (colours, fonts, layout, images) defined in the design process and coding them using web industry standards (PHP, HTML5, CSS3, JS, jQuery). This is typically done by first coding the home page, followed by templates for the interior pages. When the website is ready for review you will be supplied with login details to view the website before it is launched to the public. You will also be supplied with instructions on how to update your website.</p> --}}
+          <h3 class="text-center text-dark">All of the websites that we create have been tailor-made and coded from scratch.</h3>
+          <p> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</p>
+        </div>
+        <div class="center-split">
+          <img src="/images/code.png" alt="">
+        </div>
+      </div>
+    
+     
     </div>
   </section>
 
-  <section id="tech" class="py-5 back-light">
+  <section id="tech" class="py-5 back-pink">
     <div class="main py-5 container-fluid">
+      <h2 class="text-center text-dark"><a id="plans">TECHNOLOGIES THAT CREATE WONDERS</a></h2>
       <div class="row">
         <div class="pl-5 ml-5 col-sm col-sm-12 col-md-6 pb-sm-5 m-auto">
           <h4 class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolores magnam voluptates minus aliquam eos, perspiciatis, pariatur repudiandae ea quidem molestias omnis vitae iure fugiat beatae. Possimus deleniti accusantium molestias ducimus</h4>
@@ -59,39 +69,59 @@
 </section>
 
   <section id="plans" class="py-5 back-dark">
-    <div class="main pb-5">
-      <h2 class="text-center text-light"><a id="plans">MONTHLY PLANS</a></h2>
-      <h4 class="text-center text-light px-4 pb-5">With these budget friendly plans you'll never have to worry about your website again. </h4>
-      <div class="p-lg-4 p-md-2 py-4 pb-md-0 pb-sm-0 pb-0 d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
+    <div class="monthly-plans pb-5">
+      <h2 class="text-center text-light"><a id="plans">WEBSITE SERVICES</a></h2>
+      <div class="d-flex flex-column justify-content-center">
+        <h5 class="text-center text-light">
+          Websites are a necessity to compete in today’s business landscape. We offer a few different types of web design services, including templates, semi-custom, and fully custom websites. Each of our web design offerings includes a dedicated account manager, an in-depth kickoff meeting, a 40+ step post-launch SEO checklist, and more. We build most of our websites on WordPress, the web’s most popular content management system and all our websites are built to be responsive, meaning they work on any tablet or mobile phone.
+        </h5>
+        <h5 class="text-center text-light">
+          You’ll notice that we only list pricing ranges and not set pricing for reach offering. Each of our web design projects varies greatly and depends on your budget, goals, and timeframe. If you’re unsure of what you want, our team can help you choose the right option that falls within your budget.
+        </h5>
+      </div>
+     
+      <div class="p-lg-4 p-md-2 py-4 pb-md-0 pb-sm-0 pb-0 d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between">
         <div class="bg bg1 p-4">
           <div class="text-center">
-            <h2 class="text-light pb-5">Basic</h2>
-            <p class="pt-5 pb-1">Custom design / Information architecture</p>
+            <h2 class="text-light pb-5">TEMPLATE WEBSITES</h2>
+            {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
             <p class="pb-1">Mobile friendly design</p>
             <p class="pb-1">Logo design</p>
             <p class="pb-1">Service and product pages</p>
-            <p class="pb-1">Contact form</p>
+            <p class="pb-1">Contact form</p> --}}
+            <p>
+              Template websites are best suited for businesses that have a smaller budget and are willing to adhere to the limitations of a template. Our platform of choice is WordPress and there are thousands (if not millions) of different WordPress templates available. Our team will select 2-3 templates to present to you based on our knowledge of your goals, number of pages, etc. and you will then select 1 for us to move forward with.
+            </p>
+            <p>
+              Templates offer many customization options (such as color choice, logo, photos, etc.), but there are pros and cons to templates that we’ll make sure you’re aware of before beginning. Template websites from Atilus typically start around $4,500 and the final pricing will depend on the number of hours we’ll need to complete your project.
+            </p>
           </div>
 
         </div>
         <div class="bg bg2 p-4">
           <div class="text-center">
-            <h2 class="text-light pb-5">Standard</h2>
-            <p class="pt-5 pb-1">Custom design / Information architecture</p>
+            <h2 class="text-light pb-5">CUSTOM WEBSITES</h2>
+            {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
             <p class="pb-1">Mobile friendly design</p>
             <p class="pb-1">Logo design</p>
             <p class="pb-1">Website content creation</p>
             <p class="pb-1">Service and product pages</p>
             <p class="pb-1">Contact form</p>
             <p class="pb-1">Gallery</p>
-            <p class="pb-1">Blog setup</p>
+            <p class="pb-1">Blog setup</p> --}}
+            <p>
+              Custom websites are for medium-large sized businesses that have a sizeable budget for a new website and that want full control over the look/feel. Once a client has been on-boarded, our team meets internally to start planning a sitemap, wireframes, and design direction. We then go through each step, presenting everything from initial concepts to structural planning to the final design. Our team will walk you through each phase until the final project is launched to ensure your 100% satisfaction.
+            </p>
+            <p>
+              Custom websites from Atilus typically start around $15,000 and final pricing will ultimately depend upon the number of hours we’ll need to complete your project.
+            </p>
           </div>
         </div>
 
         <div class="bg bg3 p-4">
           <div class="text-center">
-            <h2 class="text-light pb-5">Premium</h2>
-            <p class="pt-5 pb-1">Custom design / Information architecture</p>
+            <h2 class="text-light pb-5">WEBSITE REDESIGNS & ADD-ONS</h2>
+            {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
             <p class="pb-1">Mobile friendly design</p>
             <p class="pb-1">Logo design</p>
             <p class="pb-1">Website content creation</p>
@@ -100,7 +130,13 @@
             <p class="pb-1">Gallery</p>
             <p class="pb-1">Blog setup</p>
             <p class="pb-1">Shopping cart integration and programming</p>  
-            <p class="pb-1">Digital marketing setup (SEO)</p>
+            <p class="pb-1">Digital marketing setup (SEO)</p> --}}
+            <p>
+              We love building new websites, but if you come to us with an existing website, we’re willing to work with that, too. We’ll review your existing website design, your code, and your overall goals to make design change recommendations and implement those. Website redesigns vary greatly in pricing and depend on the existing framework.
+            </p>
+            <p>
+              The above offerings encompass most of the types of web design services we offer, and we also can work with you to include special functionality. This includes adding plugins that support your website’s functionality, like IDX integration, event calendars, and more. You tell us what you’d like your website to do and we can build it into your budget.
+            </p>
           </div>
         </div>
       </div>
@@ -120,17 +156,17 @@
   <section id="plans" class="py-5 back-light">
     <div class="main">
      <div>
-      <h2 class="text-center text-dark py-5"><a id="plans">PACKAGE TERMINOLOGY</a></h2>
-        <div class="d-flex flex-wrap flex-xl-row flex-lg-row flex-md-row flex-sm-row flex-column justify-content-center">
+      <h2 class="text-center text-dark py-5"><a>TERMINOLOGY</a></h2>
+        <div class="d-flex flex-wrap justify-content-center">
 
-          <div class="card">
+          <div class="card back-dark">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
-              <h4 class="card-title">CUSTOM DESIGN</h4>
-              <p class="card-text"> the visual design, UX design, imagery collection, and sitemap and page structure generation.</p>
+              <div class="text-center"><i class="fas fa-palette fa-4x text-light"></i></div>
+              <h4 class="card-title text-light">CUSTOM DESIGN</h4>
+              <p class="card-text text-light"> the visual design, UX design, imagery collection, and sitemap and page structure generation.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card back-pink">
             <div class="card-body">
               <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">INFORMATION ARCHITECTURE</h4>
