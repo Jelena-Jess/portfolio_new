@@ -5,13 +5,12 @@
 
     <section class="col-12 py-5 text-justify back-light">
       <div class="main py-5">
-        <h1 class="text-center text-dark pb-4">Your Personal Stamp</h1>
         <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
           <div class="center-split px-lg-5 px-md-4">
-            <h3 class="text-center text-dark">All of the websites that we create have been tailor-made and coded from scratch.</h3>
+            <h3 class="text-center text-dark">Your personal stamp</h3>
           </div>
           <div class="center-split">
-            <img src="/images/code.png" alt="">
+            <img src="/images/logo.png" alt="">
           </div>
         </div>
       </div>

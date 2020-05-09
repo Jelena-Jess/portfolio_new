@@ -12,7 +12,8 @@ class EmailController extends Controller
 {
     //Contact page
     public function home(){
-        return view('pages.contact');
+        $title='Contact';
+        return view('pages.contact')->with('title', $title);
     }
     public function send(Request $get)
     {

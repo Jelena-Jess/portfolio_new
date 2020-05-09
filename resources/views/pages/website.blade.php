@@ -5,7 +5,6 @@
 
   <section class="col-12 py-5 text-justify back-light">
     <div class="main py-5">
-      <h1 class="text-center text-dark pb-4">Your Picture Perfect</h1>
       <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
         <div class="center-split px-lg-5 px-md-4">
           {{-- <p>The website design process starts with a sketch. First, we discuss wireframes, page layouts, and menu structures. Digital design concepts are then created. You will be presented with a variety of website design concepts to review. Feedback on the design concepts is essential to give you the opportunity to express your thoughts on the design and make alterations where desired before the final sign-off.</p>

@@ -26,8 +26,9 @@ Route::get('/project3', 'PagesController@project3');
 Route::get('/project3', 'PagesController@project3');
 Route::get('/website', 'PagesController@website');
 Route::get('/logo', 'PagesController@logo');
-Route::get('/wordpress', 'PagesController@wordpress');
+Route::get('/about', 'PagesController@about');
 Route::get('/content', 'PagesController@content');
+Route::get('/blog', 'PagesController@blog');
 
 Route::get('/contact', 'EmailController@home');
 Route::post('/send', 'EmailController@send');

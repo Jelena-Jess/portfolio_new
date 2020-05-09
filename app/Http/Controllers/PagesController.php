@@ -43,5 +43,18 @@ class PagesController extends Controller
         $title='Content creation';
         return view('pages.content')->with('title', $title);
         }
+
+    public function about(){
+        $title='About us';
+        return view('pages.about')->with('title', $title);
+        }
+
+    public function blog(){
+        $title='Blog';
+        return view('pages.blog')->with('title', $title);
+        }
+        
         
 }
+
+

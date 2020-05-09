@@ -13,13 +13,13 @@
         <div class="align-items-start">
           @include('inc.navbar')
         </div>
-        <div class="logo-sm-screen align-self-start d-lg-none d-xl-none pt-2 pl-5">
+        <div class="align-self-start d-lg-none d-xl-none pt-2 pl-5">
           <a class="logo" href="/">FRIDAY SOLUTIONS
           </a>
         </div>
       </div>
-      <div class="mt-auto">
-        <h1 class="main title-pages">{{$title}}</h1> 
+      <div class="header-title mt-auto mx-auto">
+        <h1 class="title-pages">{{$title}}</h1> 
       </div>
     </div>
   </div>

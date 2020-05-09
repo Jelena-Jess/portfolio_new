@@ -6,12 +6,12 @@
     </div>
     <div>
       <ul class="nav navbar-nav d-flex bd-highlight mb-7">
-        <li class="px-2 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="/#bio">ABOUT
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link hvr-underline-from-center" href="/">HOME
           </a>
         </li>
-        <li class="dropdown mydropdowncss px-2 nav-item bd-highlight nav">
-          <a class="nav-link" href="/#services">SERVICES
+        <li class="dropdown mydropdowncss px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link" href="">SERVICES
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/website">WEBSITE DESIGN</a>
@@ -19,13 +19,16 @@
             <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/content">CONTENT CREATION</a>
           </div>
         </li>
-        <li class="px-2 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="/#tech">TECHNOLOGIES</a>
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link hvr-underline-from-center" href="/portfolio">PORTFOLIO</a>
         </li>
-        <li class="px-2 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="/#projects">PROJECTS</a>
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link hvr-underline-from-center" href="/about">ABOUT</a>
         </li>
-        <li class="px-2 nav-item bd-highlight nav hvr-underline-from-center">
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link hvr-underline-from-center" href="/blog">BLOG</a>
+        </li>
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav hvr-underline-from-center">
           <a class="nav-link" href="/contact">CONTACT</a>
         </li>
       </ul>
