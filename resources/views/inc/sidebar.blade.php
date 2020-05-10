@@ -2,55 +2,54 @@
   <div class="mobile side-nav fixed d-lg-none d-xl-none">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-window-close fa-sm"></i></a>
     <ul class="custom-scrollbar nav flex-column text-center ml-auto mr-auto">
-      <li class="nav-item mt-5">
-            <a class="nav-link" href="/">
-            <span><i class="fas fa-fingerprint sidebar-icon"></i></span>
+      <li class="nav-item mt-5 mb-3">
+            <a class="mt-5 nav-link hvr-underline-from-center" href="/">
+            <span><i class="fas fa-home"></i></span>
             HOME
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="">
-            <span><i class="fas fa-hands-helping"></i></span>
+        <li class="nav-item mt-2 mb-2">
+            <a class="nav-link hvr-underline-from-center" href="/#services">
+            <span><i class="fas fa-laptop-code"></i></span>
             SERVICES
             </a>
         </li>
             <li class="nav-item">
-                <a class="nav-link-small-sidebar" href="/website">
+                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/website"><i class="fas fa-code"></i> 
                 WEBSITE DESIGN
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link-small-sidebar" href="/logo">
-                LOGO DESIGN
+            <li class="nav-item my-1">
+                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/logo">
+                    <i class="fab fa-pied-piper"></i> LOGO DESIGN
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link-small-sidebar" href="/content">
-                CONTENT CREATION
+            <li class="nav-item mt-1 mb-3">
+                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/content"><i class="fas fa-pencil-alt"></i> CONTENT CREATION
                 </a>
             </li>
         
-        <li class="nav-item">
-        <a class="nav-link" href="/portfolio">
-            <span><i class="fas fa-brain"></i></span>
+        <li class="nav-item my-3">
+        <a class="nav-link hvr-underline-from-center" href="/portfolio">
+            <span><i class="fas fa-project-diagram"></i></span>
         PORTFOLIO
         </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/about">
-                <span><i class="fas fa-brain"></i></span>
+        <li class="nav-item my-3">
+            <a class="nav-link hvr-underline-from-center" href="/about">
+                <span><i class="far fa-address-card"></i></span>
             ABOUT
             </a>
             </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/blog">
-                <span><i class="fas fa-cut"></i></span>
+        <li class="nav-item my-3">
+            <a class="nav-link hvr-underline-from-center" href="/blog">
+                <span><i class="fas fa-blog"></i></span>
             BLOG
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/contact">
-                <span><i class="fas fa-phone"></i></span>
+        <li class="nav-item mt-3">
+            <a class="nav-link hvr-underline-from-center" href="/contact">
+                <span><i class="fas fa-phone-square"></i></span>
             CONTACT
             </a>
         </li>

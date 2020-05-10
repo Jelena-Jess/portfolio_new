@@ -36,11 +36,8 @@
     @yield('content')
   </div>
 
-  @if(\Request::is("/"))
-    @include('inc.footer')
-  @else 
-    @include('inc.footer_pages')
-  @endif
+  
+  @include('inc.footer')
 
   </div>
 

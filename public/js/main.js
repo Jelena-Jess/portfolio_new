@@ -80,13 +80,13 @@ for (i = 0; i < acc.length; i++) {
 
 //SIDEBAR
 function openNav() {
-  document.getElementById("mySidebar").style.width = "100vw";
-  document.getElementById("main").style.marginLeft= "100vw";
+  document.getElementById("mySidebar").style.height = "100vh";
+  document.getElementById("main").style.marginBottom= "100vh";
 }
 
 function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("mySidebar").style.height = "0";
+  document.getElementById("main").style.marginBottom= "0";
 }
 
 

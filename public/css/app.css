@@ -10903,6 +10903,25 @@ body {
   padding-right: 0;
 }
 
+/***** CONTACT PAGE *****/
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid #f3e9ed;
+  margin: 0 auto;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.pink-text {
+  color: #FE4365;
+}
+
 .section {
   width: 100%;
   height: 100vh;
@@ -10932,6 +10951,7 @@ body {
 
 .back-light {
   background-color: #f3e9ed;
+  z-index: -1;
 }
 
 .back-dark {
@@ -10940,6 +10960,7 @@ body {
 
 .back-pink {
   background-color: #bdb4b480;
+  z-index: -1;
 }
 
 .logo {
@@ -10995,6 +11016,12 @@ body {
   background-color: #383434;
   color: #fff;
   bottom: 0px;
+}
+
+.footer-bottom a {
+  color: #fff !important;
+  text-align: start;
+  font-size: 1rem;
 }
 
 .footer-bottom p {
@@ -11139,8 +11166,13 @@ p {
   font-size: 1rem;
 }
 
-.fab {
-  color: #383434 !important;
+.footer .fab {
+  color: #fff !important;
+  font-size: 1rem;
+}
+
+.footer .fab:hover {
+  color: #FE4365 !important;
 }
 
 .footer-head {
@@ -11457,7 +11489,7 @@ h4 {
   z-index: -1;
   left: 51%;
   right: 51%;
-  bottom: 0;
+  bottom: 10px;
   background: #FE4365;
   height: 1px;
   transition-property: left, right;
@@ -11569,6 +11601,145 @@ img {
   width: 60%;
 }
 
+/***** SLIDER FOR ABOUT PAGE  *****/
+
+#slider {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+#slider input[type=radio] {
+  display: none;
+}
+
+#slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#slides {
+  padding: 10px;
+  background-color: #dfb6bb;
+  position: relative;
+  z-index: 1;
+}
+
+#overflow {
+  width: 100%;
+  overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  width: 400%;
+  line-height: 0;
+  height: 200px;
+}
+
+#slides .slide {
+  width: 25%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+#slides .slide_1 {
+  background-color: #f3e9ed;
+}
+
+#slides .slide_2 {
+  background-color: #f3e9ed;
+}
+
+#slides .slide_3 {
+  background-color: #f3e9ed;
+}
+
+#slides .slide_4 {
+  background-color: #f3e9ed;
+}
+
+#controls {
+  margin: -130px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+}
+
+#controls label {
+  transition: opacity 0.2s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+}
+
+#controls label:hover {
+  opacity: 0.5;
+}
+
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+  float: right;
+  margin: 0 -50px 0 0;
+  display: block;
+}
+
+#slide1:checked ~ #controls label:nth-child(4),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3) {
+  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  float: left;
+  margin: 0 0 0 -50px;
+  display: block;
+}
+
+#bullets {
+  margin: 100px 0 0;
+  text-align: center;
+}
+
+#bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #bdb4b480;
+  margin: 0 10px;
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+  background-color: #fc5c79;
+}
+
 @media screen and (min-width: 993px) and (max-width: 1200px) {
   .header-fix {
     width: 80vw;
@@ -11604,6 +11775,10 @@ img {
     width: 33%;
   }
 
+  .contact-form {
+    width: 70%;
+  }
+
   .card {
     width: 27%;
   }
@@ -11613,13 +11788,17 @@ img {
   /******* SIDEBAR ********/
 
   .openbtn {
-    z-index: 1;
+    z-index: 999;
     font-size: 1.5rem;
   }
 
   .header-fix {
     width: 80vw;
     margin-top: 25%;
+  }
+
+  .contact-form {
+    width: 80%;
   }
 
   .title-pages {
@@ -11636,43 +11815,43 @@ img {
   }
 
   .sidebar {
-    height: 100vh;
-    width: 0;
+    height: 0;
+    width: 100vw;
     border-radius: 0;
     position: fixed;
     z-index: 20;
     top: 0;
-    left: 0;
     background-color: rgba(243, 233, 237, 0.9);
-    overflow-x: hidden;
+    overflow: hidden;
     transition: 0.5s;
     padding: 0px !important;
   }
 
-  .sidebar .nav-link {
-    text-decoration: none;
-    margin: 28px 0;
-    font-size: 2rem;
-    color: #FE4365;
-    display: block;
-    transition: 0.3s;
+  .sidebar .fas,
+  .fab,
+  .far {
+    color: #383434 !important;
+    font-size: 25px;
   }
 
-  .sidebar .nav-link:hover {
-    color: #383434 !important;
+  .sidebar .nav-item {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .sidebar .nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FE4365;
+    transition: 0.3s;
   }
 
   .sidebar .nav-link-small-sidebar {
     text-decoration: none;
-    margin: 0;
-    display: block;
     transition: 0.3s;
     font-size: 1.5rem;
+    font-weight: 600;
     color: #FE4365 !important;
-  }
-
-  .sidebar .nav-link-small-sidebar:hover {
-    color: #383434 !important;
   }
 
   .sidebar .closebtn {
@@ -11819,16 +11998,7 @@ img {
 
   .footer-bottom div {
     width: 40%;
-    margin-left: 8% !important;
-  }
-
-  .sidebar {
-    padding-top: 10px;
-  }
-
-  .sidebar a {
-    font-size: 18px;
-    padding: 8px 20px 8px 10px;
+    margin-left: 5% !important;
   }
 
   .sidebar .closebtn {
@@ -11982,14 +12152,6 @@ img {
     font-size: 1.3rem;
   }
 
-  .sidebar {
-    padding-top: 10px;
-  }
-
-  .sidebar a {
-    font-size: 18px;
-  }
-
   .sidebar .closebtn {
     right: 5%;
   }
@@ -12015,6 +12177,7 @@ img {
 
   .footer-bottom div {
     width: 40%;
+    margin-left: 5% !important;
   }
 
   #services {
@@ -12077,16 +12240,6 @@ img {
 
   .sidebar a {
     padding: 8px 20px 8px 10px;
-  }
-
-  .footer-upper h3 {
-    font-size: 24px;
-    padding-bottom: 5px;
-  }
-
-  .footer-upper h5 {
-    font-size: 20px;
-    padding-bottom: 5px;
   }
 
   .centered {
@@ -12208,18 +12361,9 @@ img {
     height: 40vh;
   }
 
-  .footer-upper h1 {
-    font-size: 2rem;
-  }
-
-  .footer-upper .button {
-    padding: 0.3rem;
-    width: 9rem;
-    font-size: 0.9rem;
-  }
-
   .footer-bottom div {
     width: 40%;
+    margin-left: 5% !important;
   }
 
   .inbox {

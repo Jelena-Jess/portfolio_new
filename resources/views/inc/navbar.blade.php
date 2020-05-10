@@ -1,6 +1,6 @@
 <nav class="mb-1 navbar navbar-expand-lg bg-blue d-none d-sm-none d-md-none d-lg-block">
   <div class="main d-flex justify-content-between">
-    <div class="">
+    <div class="my-auto">
       <a class="logo" href="/">FRIDAY SOLUTIONS
       </a>
     </div>

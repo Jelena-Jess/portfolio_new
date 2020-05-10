@@ -28,7 +28,7 @@
       </div>
     </section>
     
-    <section class="footer-upper">
+    <section id="services" class="footer-upper">
       <div class="split left">
         <div class="px-3 align-self-center">
           <p class="text-center"><i class="pt-4 fas fa-code fa-4x text-dark"></i></p>
@@ -231,6 +231,40 @@
       </div>
       </div>
     </section> --}}
+
+    <section id="bio" class="p-5 text-justify back-light">
+      <div class="py-5">
+        <div class="main py-5 d-flex flex-column justify-content-center">
+          <h1 class="text-center">LATEST BLOG POSTS</h1>
+          <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-around">
+            <div class="cards">
+              <img src="/images/header_img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Go somewhere</a>
+              </div>
+            </div>
+            <div class="cards">
+              <img src="/images/header_img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Go somewhere</a>
+              </div>
+            </div>
+            <div class="cards">
+              <img src="/images/header_img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
   
