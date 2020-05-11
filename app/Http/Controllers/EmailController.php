@@ -36,7 +36,8 @@ class EmailController extends Controller
 
     //Project Plan Page
     public function project_plan(){
-        return view('pages.project_plan');
+        $title='Project plan';
+        return view('pages.project_plan')->with('title', $title);
     }
     public function project_plan_send(Request $get)
     {

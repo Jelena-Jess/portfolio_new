@@ -11,7 +11,8 @@ class PagesController extends Controller
         }
 
      public function projects(){
-        return view('pages.projects');
+        $title='Projects';
+        return view('pages.projects')->with('title', $title);
         }
 
     public function project1(){
