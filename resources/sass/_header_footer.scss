@@ -50,7 +50,7 @@
   width: 100%;
   z-index: 100;
   box-shadow: 0 3px 5px rgba(254, 67, 101, 0.5);
-  background-color: #fff;
+  background-color: $bg-light;
 }
 
 .nav-link-fixed {
@@ -60,16 +60,16 @@
 .nav-link-small-fixed {
   font-size: 0.9rem;
   color: $strong-pink !important;
-  background-color: #fff;
+  background-color: $bg-light;
 }
 .nav-link-small-fixed:hover {
-  background-color: #fff !important;
+  background-color: $bg-light !important;
 }
 
 .nav-item {
   cursor: pointer;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .nav-item:hover {
@@ -84,16 +84,13 @@
   color: $strong-pink;
 }
 .nav-link-small {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: $strong-pink;
   font-weight: 600;
 }
 .nav-link-small:hover {
-  background-color: #fff;
+  background-color: $bg-light;
   color: $strong-pink;
-}
-.nav-page{
-  color: #355C7D;
 }
 .nav-page:hover{
   color: $strong-pink;
@@ -102,10 +99,7 @@
 .navbar-nav li a:hover, .navbar-nav li.active a {
   transition: 300ms all ease;
   }
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-} 
+ 
 
 .fa-bars {
   color: $strong-pink;
@@ -114,15 +108,17 @@
   color: $bg-dark;
 }
 .dropdown-menu {
-  border-color: $strong-pink;
-  margin-left: 10px;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: $bg-light;
 }
 .mydropdowncss:hover .dropdown-menu {
     display: block;
     margin-top: 0;
-    background-color: transparent;
+    background-color: $bg-light;
+ }
+ .dropdown-item {
+   margin: 0 !important;
+   padding: 5px 10px !important;
  }
 
 /***** FOOTER *****/
@@ -132,7 +128,7 @@
   background-color: $bg-dark;
   color: #fff;
   bottom: 0px;
-  // box-shadow: 0 -3px 5px rgba(53, 92, 125, 0.5);
+  box-shadow: 0 -3px 5px rgba(254, 67, 101, 0.5);
 }
 
 .footer-bottom a {

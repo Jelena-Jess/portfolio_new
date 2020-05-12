@@ -11708,7 +11708,7 @@ img {
   width: 100%;
   z-index: 100;
   box-shadow: 0 3px 5px rgba(254, 67, 101, 0.5);
-  background-color: #fff;
+  background-color: #f3e9ed;
 }
 
 .nav-link-fixed {
@@ -11718,17 +11718,17 @@ img {
 .nav-link-small-fixed {
   font-size: 0.9rem;
   color: #FE4365 !important;
-  background-color: #fff;
+  background-color: #f3e9ed;
 }
 
 .nav-link-small-fixed:hover {
-  background-color: #fff !important;
+  background-color: #f3e9ed !important;
 }
 
 .nav-item {
   cursor: pointer;
   font-family: "Rajdhani", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .nav-item:hover {
@@ -11745,18 +11745,14 @@ img {
 }
 
 .nav-link-small {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #FE4365;
   font-weight: 600;
 }
 
 .nav-link-small:hover {
-  background-color: #fff;
+  background-color: #f3e9ed;
   color: #FE4365;
-}
-
-.nav-page {
-  color: #355C7D;
 }
 
 .nav-page:hover {
@@ -11768,10 +11764,6 @@ img {
   transition: 300ms all ease;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-}
-
 .fa-bars {
   color: #FE4365;
 }
@@ -11781,16 +11773,19 @@ img {
 }
 
 .dropdown-menu {
-  border-color: #FE4365;
-  margin-left: 10px;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: #f3e9ed;
 }
 
 .mydropdowncss:hover .dropdown-menu {
   display: block;
   margin-top: 0;
-  background-color: transparent;
+  background-color: #f3e9ed;
+}
+
+.dropdown-item {
+  margin: 0 !important;
+  padding: 5px 10px !important;
 }
 
 /***** FOOTER *****/
@@ -11800,6 +11795,7 @@ img {
   background-color: #383434;
   color: #fff;
   bottom: 0px;
+  box-shadow: 0 -3px 5px rgba(254, 67, 101, 0.5);
 }
 
 .footer-bottom a {
