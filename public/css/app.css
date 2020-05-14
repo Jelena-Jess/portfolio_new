@@ -10926,6 +10926,18 @@ body {
 
 /***** COLORS *****/
 
+.bg-light {
+  background-color: #f3e9ed !important;
+}
+
+.bg-dark {
+  background-color: #383434 !important;
+}
+
+.bg-grey {
+  background-color: #bdb4b480 !important;
+}
+
 .pink-text {
   color: #FE4365;
 }
@@ -10944,17 +10956,6 @@ body {
   z-index: -1;
 }
 
-.logo {
-  font-family: "Gugi", cursive;
-  font-size: 1.5rem;
-  color: #FE4365;
-}
-
-.logo:hover {
-  color: #FE4365;
-  text-decoration: none;
-}
-
 .center-split {
   width: 50%;
 }
@@ -10970,9 +10971,13 @@ h6 {
 }
 
 p {
-  color: black !important;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+}
+
+.p-big {
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
 }
 
 td,
@@ -10980,42 +10985,6 @@ th {
   color: #383434;
   text-align: center;
   vertical-align: middle;
-}
-
-.title {
-  font-family: "Rajdhani", sans-serif;
-  color: #FE4365;
-  font-size: 5rem;
-  -webkit-animation-name: title;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 3s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: title;
-  animation-duration: 3s;
-}
-
-/* Safari 4.0 - 8.0 */
-
-@-webkit-keyframes title {
-  from {
-    color: #fff;
-  }
-
-  to {
-    color: #FE4365;
-  }
-}
-
-/* Standard syntax */
-
-@keyframes title {
-  from {
-    color: #fff;
-  }
-
-  to {
-    color: #FE4365;
-  }
 }
 
 /******* TIMELINE ********/
@@ -11121,6 +11090,30 @@ h4 {
 
 .card {
   width: 30%;
+}
+
+/******* BLOG ********/
+
+.blog-post {
+  border: 1px solid #e9dcde;
+  border-radius: 2%;
+  margin: 10px 0;
+}
+
+.blog-post-intro:hover {
+  background-color: #e9dcde;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1s ease;
+}
+
+.inner:hover img {
+  transform: scale(0.5);
 }
 
 /******* SKILLS ********/
@@ -11682,6 +11675,42 @@ img {
   border-bottom: 6px solid #bdb4b4;
 }
 
+.title {
+  font-family: "Rajdhani", sans-serif;
+  color: #FE4365;
+  font-size: 5rem;
+  -webkit-animation-name: title;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: title;
+  animation-duration: 3s;
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes title {
+  from {
+    color: #fff;
+  }
+
+  to {
+    color: #FE4365;
+  }
+}
+
+/* Standard syntax */
+
+@keyframes title {
+  from {
+    color: #fff;
+  }
+
+  to {
+    color: #FE4365;
+  }
+}
+
 .title-pages {
   font-family: "Rajdhani", sans-serif;
   color: #bdb4b4;
@@ -11691,6 +11720,18 @@ img {
 }
 
 /***** NAVBAR *****/
+
+.logo {
+  font-family: "Gugi", cursive;
+  font-size: 1.5rem;
+  color: #FE4365;
+  z-index: 999 !important;
+}
+
+.logo:hover {
+  color: #FE4365;
+  text-decoration: none;
+}
 
 .header-fix {
   width: 80vw;
@@ -11745,7 +11786,7 @@ img {
 }
 
 .nav-link-small {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #FE4365;
   font-weight: 600;
 }
@@ -11775,6 +11816,8 @@ img {
 .dropdown-menu {
   border-radius: 10px;
   background-color: #f3e9ed;
+  padding: 15px 20px;
+  margin-left: -30px;
 }
 
 .mydropdowncss:hover .dropdown-menu {
@@ -11881,7 +11924,7 @@ img {
   }
 
   .sidebar .nav-item {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
   }
 
@@ -11916,6 +11959,15 @@ img {
   .side-nav {
     padding: 0 !important;
   }
+
+  .sidebar .dropdown-menu {
+    position: relative !important;
+    transform: none !important;
+    text-align: center !important;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 770px) {
@@ -11943,6 +11995,10 @@ img {
 
   .sidebar .closebtn {
     right: 4%;
+  }
+
+  .sidebar .nav-item {
+    width: 50%;
   }
 
   /***** FOOTER *****/
@@ -11987,6 +12043,10 @@ img {
   .sidebar .closebtn {
     right: 5%;
   }
+
+  .sidebar .nav-item {
+    width: 60%;
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -12025,6 +12085,10 @@ img {
 
   .sidebar .closebtn {
     right: 7%;
+  }
+
+  .sidebar .nav-item {
+    width: 80%;
   }
 
   /***** FOOTER *****/
@@ -12245,7 +12309,7 @@ img {
 
 #slides {
   padding: 10px;
-  background-color: #dfb6bb;
+  background-color: transparent;
   position: relative;
   z-index: 1;
 }
@@ -12378,12 +12442,12 @@ img {
   color: #fff;
   border: #fff solid 0.2rem;
   background-color: #fc5c79;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   text-transform: uppercase;
   text-decoration: none;
   transform: translateX(-50%);
   box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.3) !important;
+  font-family: "Cairo", sans-serif;
 }
 
 .button:hover {
@@ -12401,6 +12465,8 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem 2rem !important;
+  font-size: 1.1rem;
+  font-family: "Cairo", sans-serif;
 }
 
 .btn:hover {

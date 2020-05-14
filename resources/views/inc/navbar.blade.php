@@ -20,7 +20,7 @@
           </div>
         </li>
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="/portfolio">PORTFOLIO</a>
+          <a class="nav-link hvr-underline-from-center" href="/projects">PORTFOLIO</a>
         </li>
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
           <a class="nav-link hvr-underline-from-center" href="/about">ABOUT</a>

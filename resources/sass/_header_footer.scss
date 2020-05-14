@@ -24,6 +24,27 @@
   background-size: cover;
   border-bottom: 6px solid $grey;
 }
+.title {
+  font-family: 'Rajdhani', sans-serif;
+  color: $strong-pink;
+  font-size: 5rem;
+  -webkit-animation-name: title; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: title;
+  animation-duration: 3s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes title {
+from {color: #fff;}
+to {color: $strong-pink;}
+}
+
+/* Standard syntax */
+@keyframes title {
+from {color: #fff;}
+to {color: $strong-pink;}
+}
 .title-pages {
   font-family: 'Rajdhani', sans-serif;
   color: $grey;
@@ -33,6 +54,17 @@
 }
 
 /***** NAVBAR *****/
+
+.logo{
+  font-family: 'Gugi', cursive;
+  font-size: 1.5rem;
+  color: $strong-pink;
+  z-index: 999 !important;
+}
+.logo:hover {
+  color: $strong-pink;
+  text-decoration: none;
+}
 
 .header-fix {
   width: 80vw;
@@ -84,7 +116,7 @@
   color: $strong-pink;
 }
 .nav-link-small {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: $strong-pink;
   font-weight: 600;
 }
@@ -110,6 +142,8 @@
 .dropdown-menu {
   border-radius: 10px;
   background-color: $bg-light;
+  padding: 15px 20px;
+  margin-left: -30px;
 }
 .mydropdowncss:hover .dropdown-menu {
     display: block;
@@ -202,7 +236,7 @@
     font-size: 25px;
   }
   .sidebar .nav-item {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
   }
 
@@ -236,6 +270,14 @@
   .side-nav {
     padding: 0 !important;
   }
+  .sidebar .dropdown-menu {
+    position: relative !important;
+    transform: none !important;
+    text-align: center !important;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+  }
 }
 
 @media screen and (min-width:601px) and (max-width:770px){
@@ -256,10 +298,14 @@
     font-size: 4.5rem;
   } 
 
+
   /***** SIDEBAR *****/
   .sidebar .closebtn {
-      right: 4%;
+    right: 4%;
     }
+  .sidebar .nav-item {
+    width: 50%;
+  } 
 
   /***** FOOTER *****/
   .section-footer {
@@ -297,6 +343,9 @@
   .sidebar .closebtn {
     right: 5%;
   }
+    .sidebar .nav-item {
+    width: 60%;
+  }
 }
 
 @media all and (max-width:400px){
@@ -324,6 +373,9 @@
   .sidebar a {font-size: 18px;}
   .sidebar .closebtn {
     right: 7%;
+  }
+  .sidebar .nav-item {
+    width: 80%;
   }
 
   /***** FOOTER *****/

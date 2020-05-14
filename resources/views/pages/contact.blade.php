@@ -3,9 +3,9 @@
 @section('content')
   <main role="main" class="m-auto">
 
-    <section class="mb-5 text-justify back-light">
-      <div class="main">
-        <div class="contact-form d-flex flex-column align-items-center justify-content-center mx-auto">
+    <section class="mb-5 text-justify">
+      <div class="back-light">
+        <div class="main contact-form d-flex flex-column align-items-center justify-content-center mx-auto">
           <div class="">
             <img src="/images/contact.png" alt="">
           </div>
@@ -14,9 +14,11 @@
           </div>
         </div>
       </div>
+      <div id="triangle"></div>
     </section>
 
-    <div id="triangle"></div>
+     
+    
 
 
     <section class="contact-form project_plan pt-5 text-justify m-auto">

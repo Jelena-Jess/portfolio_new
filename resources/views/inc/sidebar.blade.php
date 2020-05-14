@@ -8,26 +8,22 @@
             HOME
             </a>
         </li>
-        <li class="nav-item mt-2 mb-2">
-            <a class="nav-link hvr-underline-from-center" href="/#services">
+        <li class="dropdown show nav-item mt-2 mb-2">
+            <a class="nav-link dropdown-toggle hvr-underline-from-center" href="/#services" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span><i class="fas fa-laptop-code"></i></span>
             SERVICES
             </a>
-        </li>
-            <li class="nav-item">
-                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/website"><i class="fas fa-code"></i> 
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/website"><i class="fas fa-code"></i> 
                 WEBSITE DESIGN
-                </a>
-            </li>
-            <li class="nav-item my-1">
+                </a> 
                 <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/logo">
                     <i class="fab fa-pied-piper"></i> LOGO DESIGN
                 </a>
-            </li>
-            <li class="nav-item mt-1 mb-3">
                 <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/content"><i class="fas fa-pencil-alt"></i> CONTENT CREATION
                 </a>
-            </li>
+            </div>
+        </li>
         
         <li class="nav-item my-3">
         <a class="nav-link hvr-underline-from-center" href="/portfolio">

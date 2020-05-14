@@ -23,6 +23,7 @@ html, body {
   margin: auto;
 }
 
+
 /***** CONTACT PAGE *****/
 #triangle {
   width: 0;
@@ -37,6 +38,18 @@ html, body {
 }
 
 /***** COLORS *****/
+.bg-light {
+  background-color: $bg-light !important;
+}
+
+.bg-dark {
+  background-color: $bg-dark !important;
+}
+
+.bg-grey {
+  background-color: $bg-grey !important;
+}
+
 .pink-text {
   color: $strong-pink;
 }
@@ -55,15 +68,7 @@ html, body {
   z-index: -1;
 }
 
-.logo{
-  font-family: 'Gugi', cursive;
-  font-size: 1.5rem;
-  color: $strong-pink;
-}
-.logo:hover {
-  color: $strong-pink;
-  text-decoration: none;
-}
+
 
 .center-split {
   width: 50%;
@@ -76,9 +81,13 @@ h1, h2, h3, h4, h5, h6{
 } 
 
 p {
-  color: black !important;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1rem;
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+}
+
+.p-big {
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
 }
 
 td, th {
@@ -87,27 +96,7 @@ td, th {
   vertical-align: middle;
 }
 
-.title {
-  font-family: 'Rajdhani', sans-serif;
-  color: $strong-pink;
-  font-size: 5rem;
-  -webkit-animation-name: title; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-  animation-name: title;
-  animation-duration: 3s;
-}
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes title {
-from {color: #fff;}
-to {color: $strong-pink;}
-}
-
-/* Standard syntax */
-@keyframes title {
-from {color: #fff;}
-to {color: $strong-pink;}
-}
 
 
 // .service-title {
@@ -236,6 +225,7 @@ to {color: $strong-pink;}
   border: 10px solid $very-light-pink;
   border-radius: 2%;
 }
+
 .cards:hover {
   background-color: $very-light-pink;
 }
@@ -246,6 +236,25 @@ to {color: $strong-pink;}
 
 .card {
   width: 30%;
+}
+
+/******* BLOG ********/
+.blog-post{
+  border: 1px solid $very-light-pink;
+  border-radius: 2%;
+  margin: 10px 0;
+}
+.blog-post-intro:hover {
+  background-color: $very-light-pink;
+}
+.inner {
+  overflow: hidden;
+}
+.inner img {
+  transition: all 1s ease;
+}
+.inner:hover img {
+  transform: scale(0.5);
 }
 
 /******* SKILLS ********/

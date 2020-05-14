@@ -11,12 +11,12 @@
   color: #fff;
   border: #fff solid 0.2rem;
   background-color: $button;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   text-transform: uppercase;
   text-decoration: none;
   transform: translateX(-50%);
   box-shadow: -3px 3px 10px rgba(0,0,0,0.3) !important;
+  font-family: 'Cairo', sans-serif;
 }
 
 .button:hover {
@@ -34,6 +34,8 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem 2rem !important;
+  font-size: 1.1rem;
+  font-family: 'Cairo', sans-serif;
 }
 .btn:hover {
   color: #fff;

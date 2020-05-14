@@ -17,7 +17,7 @@
         </div>
         <div class="mx-2 my-5">
           <h4 class="text-light">SERVICES</h4>
-          <p><a href="/website">Web Design&Dev</a></p>
+          <p><a href="/website" class="">Web Design&Dev</a></p>
           <p><a href="/logo">Logo Design</a></p>
           <p><a href="/content">Content Creation</a></p> 
         </div>

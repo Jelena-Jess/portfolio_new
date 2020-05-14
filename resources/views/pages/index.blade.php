@@ -12,7 +12,7 @@
         <div class="align-self-center">
           <div><img src="/images/computer.png" alt="">
           </div>
-          <h3 class="text-light text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</h3>
+          <p class="p-big text-light text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</p>
         </div>
       </div>
     </section>
@@ -21,9 +21,9 @@
       <div class="main bio py-5 d-flex flex-column justify-content-center">
         <div class="align-self-center">
           <h1 class="text-center text-dark pb-4">Problem Solved!</h1>
-          <h4 class="text-center text-dark">You have come to a place where we turn your ideas into reality. With a simple monthly fee rather than large upfront design costs. Your new mobile-friendly website also includes updates, blogging and more.</h4>
-          <h4 class="text-center text-dark">We build websites from scratch. In addition, we can upgrade your old web pages, fix bugs, or add extra functionality to your current website.</h4>
-          <h4 class="text-center text-dark">Our final goal is two things: the PERFECT PRODUCT and a HAPPY CUSTOMER. We strive to be impeccable in all aspects, from creative design to flawless code.</h4> 
+          <p class="p-big text-center text-dark">You have come to a place where we turn your ideas into reality. With a simple monthly fee rather than large upfront design costs. Your new mobile-friendly website also includes updates, blogging and more.</p>
+          <p class="p-big text-center text-dark">We build websites from scratch. In addition, we can upgrade your old web pages, fix bugs, or add extra functionality to your current website.</p>
+          <p class="p-big text-center text-dark">Our final goal is two things: the PERFECT PRODUCT and a HAPPY CUSTOMER. We strive to be impeccable in all aspects, from creative design to flawless code.</p> 
         </div>
       </div>
     </section>
@@ -34,10 +34,10 @@
           <p class="text-center"><i class="pt-4 fas fa-code fa-4x text-dark"></i></p>
           <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">Web Design & Development</h2>
           
-          <h5 class="text-center font-weight-bold font-italic pb-2 text-dark">One of a kind web design solutions. Each line of code is not just pure code, but art.</h5>
+          <p class="p-big text-center font-weight-bold pb-2 text-dark">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
           <p>What we offer is cutting-edge web design and branding solutions. We strive to go an extra mile in order to provide our clients with a perfect digital experiences.</p>
           <div class="text-center">
-            <a href="" class="btn">Learn more</a>
+            <a href="/website" class="btn">Learn more</a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
           <p class="text-center"><i class="pt-4 fab fa-pied-piper fa-4x text-dark"></i></p>
            <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">Logo Design</h2>
           
-           <h5 class="text-center font-weight-bold font-italic pb-2 text-dark">We see logo as your personal stamp.</h5>
+           <p class="p-big text-center font-weight-bold pb-2 text-dark">We see logo as your personal stamp.</p>
            <p>We see logo as your personal stamp. By using appropriate and effective colors, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
            <div class="text-center">
              <a href="" class="btn">Learn more</a>
@@ -60,7 +60,7 @@
           <p class="text-center"><i class="pt-4 fas fa-pencil-alt fa-4x text-dark"></i></p>
           <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">Content Writing</h2>
         
-          <h5 class="text-center font-weight-bold font-italic pb-2 text-dark">A good story is the beginning of everything.</h5>
+          <p class="p-big text-center font-weight-bold pb-2 text-dark">A good story is the beginning of everything.</p>
           <p>Copywriting goes hand in hand with your website’s SEO (search engine optimisation), which enables Google to find your website when potential customers search for your products or services.</p>
           <div class="text-center">
             <a href="" class="btn">Learn more</a>
@@ -141,7 +141,7 @@
         <div class="d-flex flex-column justify-content-center">
           <div>
             <h1 class="text-dark text-center">GROW YOUR BUSINESS ONLINE</h1>
-            <p class="text-center text-dark mt-4 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
+            <p class="p-big text-center text-dark mt-4 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
           </div>
           <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around">
             <div class="plan-box align-self-center border m-3 p-3">
@@ -171,7 +171,7 @@
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
           <h1 class="text-dark text-center">START YOUR PROJECT WITH US</h1>
-          <h3 class="text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</h3>
+          <h4 class="text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</h4>
           <div class="text-center">
             <a href="" class="btn">GET IN TOUCH</a>
           </div>
