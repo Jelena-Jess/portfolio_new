@@ -3,14 +3,13 @@
 @section('content')
 <main role="main" class="m-auto">
 
-  <section class="col-12 py-5 text-justify bg-light">
+  <section class="py-5 text-justify bg-light">
     <div class="main">
       <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-        <div class="center-split px-lg-5 px-md-4">
-          <h3 class="text-center text-dark">About Friday Solutions</h3>
+        <div class="animate-left center-split px-lg-5 px-md-4">
           <p class="p-big text-center text-dark">We're a small web developing studio studio based in Novi Sad, Serbia. You'll always deal with an owner of the company.</p>
         </div>
-        <div class="center-split">
+        <div class="animate-right center-split">
           <img src="/images/about.png" alt="">
         </div>
       </div>
@@ -72,8 +71,13 @@
   
   <section class="py-5 bg-light">
     <div class="main py-5">
-      <h1 class="text-center text-dark pb-4">What do we believe in?</h1>
-      <div id="slider">
+      <h1 class="text-center text-dark">WHAT DO WE BELIEVE IN?</h1>
+      <div class="separator">
+        <div class="line line-left"></div>
+        <div class="asterisk"><i class="fas fa-circle"></i></div>
+        <div class="line line-right"></div>
+      </div>
+      <div id="slider" class="pt-4">
         <input type="radio" name="slider" id="slide1" checked>
         <input type="radio" name="slider" id="slide2">
         <input type="radio" name="slider" id="slide3">
@@ -134,6 +138,11 @@
     <div class="main py-5">
       <div class="d-flex flex-column justify-content-center">
         <h1 class="text-dark text-center">START YOUR PROJECT WITH US</h1>
+        <div class="separator">
+          <div class="line line-left"></div>
+          <div class="asterisk"><i class="fas fa-circle"></i></div>
+          <div class="line line-right"></div>
+        </div>
         <p class="p-big text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</p>
         <div class="text-center">
           <a href="" class="btn">GET IN TOUCH</a>

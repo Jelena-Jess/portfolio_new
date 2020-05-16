@@ -3,15 +3,15 @@
 @section('content')
   <main role="main" class="m-auto">
 
-    <section class="col-12 py-5 text-justify back-light">
+    <section class="py-5 text-justify bg-light">
       <div class="main py-5">
         <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-          <div class="center-split px-lg-5 px-md-4">
+          <div class="animate-left center-split px-lg-5 px-md-4">
             <h3 class="text-center text-dark">Your personal stamp</h3>
             <p>A successful logo is simple and representative of the company it stands for.</p>
             <p>Designing a small visual representation of an entire company can be a daunting task, but if the process is done correctly, a logo can be a very effective marketing device.</p>
           </div>
-          <div class="center-split">
+          <div class="animate-right center-split">
             <img src="/images/logo.png" alt="">
           </div>
         </div>
@@ -19,10 +19,15 @@
     </section>
     
 
-    <section class="col-12 py-5 text-justify back-pink">
+    <section class="col-12 py-5 text-justify bg-grey">
       <div class="main py-5">
-        <h1 class="text-center text-dark pb-4">The stages of logo creation</h1>
-        <div class="d-flex flex-column align-items-center">
+        <h1 class="text-center text-dark">The stages of logo creation</h1>
+        <div class="separator">
+          <div class="line line-left"></div>
+          <div class="asterisk"><i class="fas fa-circle"></i></div>
+          <div class="line line-right"></div>
+        </div>
+        <div class="d-flex flex-column align-items-center pt-4">
           <div>
             <h3>Step 1: The Design Brief</h3>
             <h4>Get to know the client’s business.</h4>

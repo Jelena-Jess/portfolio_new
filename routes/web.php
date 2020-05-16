@@ -29,6 +29,10 @@ Route::get('/logo', 'PagesController@logo');
 Route::get('/about', 'PagesController@about');
 Route::get('/content', 'PagesController@content');
 Route::get('/blog', 'PagesController@blog');
+Route::get('/blog/coding', 'PagesController@blog_coding');
+Route::get('/blog/design', 'PagesController@blog_design');
+Route::get('/blog/inspiration', 'PagesController@blog_inspiration');
+Route::get('/blog/post', 'PagesController@blog_post');
 
 Route::get('/contact', 'EmailController@home');
 Route::post('/send', 'EmailController@send');

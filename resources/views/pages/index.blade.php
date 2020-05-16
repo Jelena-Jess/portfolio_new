@@ -4,20 +4,20 @@
 
   <main id="main" role="main" class="m-auto">
   
-    <section id="bio" class="p-5 text-justify back-dark">
+    <section id="bio" class="p-5 text-justify bg-dark">
       <div class="main bio py-5 d-flex justify-content-center">
         {{-- <div class="align-self-center">
           <img src="/images/who.png" alt="">
         </div> --}}
-        <div class="align-self-center">
+        <div class="animate-right align-self-center">
           <div><img src="/images/computer.png" alt="">
           </div>
-          <p class="p-big text-light text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</p>
+          <p class=" animate-left p-big text-light text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</p>
         </div>
       </div>
     </section>
 
-    <section id="bio" class="p-5 text-justify back-light">
+    <section id="bio" class="p-5 text-justify bg-light">
       <div class="main bio py-5 d-flex flex-column justify-content-center">
         <div class="align-self-center">
           <h1 class="text-center text-dark pb-4">Problem Solved!</h1>
@@ -124,7 +124,7 @@
       </div>
     </section> --}}
 
-    <section id="" class="py-5 back-dark">
+    <section id="" class="py-5 bg-dark">
       <div class="main bio py-5">
         <div class="d-flex flex-column align-items-center justify-content-center">
           <h1 class="text-light text-center">ABOUT US</h1>
@@ -136,25 +136,30 @@
       </div>
     </section>
 
-    <section id="" class="p-5 back-light">
+    <section id="" class="p-5 bg-light">
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
-          <div>
+          <div class="">
             <h1 class="text-dark text-center">GROW YOUR BUSINESS ONLINE</h1>
-            <p class="p-big text-center text-dark mt-4 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
+            <div class="separator">
+              <div class="line line-left"></div>
+              <div class="asterisk"><i class="fas fa-circle"></i></div>
+              <div class="line line-right"></div>
+            </div>
+            <p class="p-big text-center text-dark mt-3 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
           </div>
           <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around">
-            <div class="plan-box align-self-center border m-3 p-3">
+            <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon fas fa-mobile-alt fa-2x"></i></div>
               <h2 class="text-center mt-4 mb-3">Schedule a Call</h2>
               <p class="text-center">We’re here to help you grow your business. Talk to us to see how we can help.</p>
             </div>
-            <div class="plan-box align-self-center border m-3 p-3">
+            <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon far fa-map fa-2x"></i></div>
               <h2 class="text-center mt-4 mb-3">Plan it</h2>
               <p class="text-center">We’ll outline your goals together and create a plan to help you get the most of your website</p>
             </div>
-            <div class="plan-box align-self-center border m-3 p-3">
+            <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon fas fa-globe fa-2x"></i></div>
               <h2 class="text-center mt-4 mb-3">Grow online</h2>
               <p class="text-center">We’ll execute on our strategy and continue to refine and evolve to get more ROI from your website.</p>
@@ -167,10 +172,15 @@
       </div>
     </section>
 
-    <section id="bio" class="p-5 text-justify back-pink">
+    <section id="bio" class="p-5 text-justify bg-grey">
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
           <h1 class="text-dark text-center">START YOUR PROJECT WITH US</h1>
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
           <h4 class="text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</h4>
           <div class="text-center">
             <a href="" class="btn">GET IN TOUCH</a>
@@ -179,64 +189,16 @@
       </div>
     </section>
 
-    {{-- <section id="plans" class="py-5 back-dark">
-      <div class="main py-5">
-        <h2 class="text-center text-dark"><a id="plans">MONTHLY PLANS</a></h2>
-        <h4 class="text-center text-dark px-4 pb-5">With these budget friendly plans you'll never have to worry about your website again. </h4>
-        <div class="p-lg-4 p-md-2 py-4 pb-md-0 pb-sm-0 pb-0 d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
-          <div class="bg bg1 p-4">
-            <div class="text-center">
-              <h2 class="text-light pb-5">Basic</h2>
-              <p class="pt-5 pb-1">Custom design / Information architecture</p>
-              <p class="pb-1">Mobile friendly design</p>
-              <p class="pb-1">Logo design</p>
-              <p class="pb-1">Service and product pages</p>
-              <p class="pb-1">Contact form</p>
-            </div>
-  
-          </div>
-          <div class="bg bg2 p-4">
-            <div class="text-center">
-              <h2 class="text-light pb-5">Standard</h2>
-              <p class="pt-5 pb-1">Custom design / Information architecture</p>
-              <p class="pb-1">Mobile friendly design</p>
-              <p class="pb-1">Logo design</p>
-              <p class="pb-1">Website content creation</p>
-              <p class="pb-1">Service and product pages</p>
-              <p class="pb-1">Contact form</p>
-              <p class="pb-1">Gallery</p>
-              <p class="pb-1">Blog setup</p>
-            </div>
-          </div>
-  
-          <div class="bg bg3 p-4">
-            <div class="text-center">
-              <h2 class="text-light pb-5">Premium</h2>
-              <p class="pt-5 pb-1">Custom design / Information architecture</p>
-              <p class="pb-1">Mobile friendly design</p>
-              <p class="pb-1">Logo design</p>
-              <p class="pb-1">Website content creation</p>
-              <p class="pb-1">Service and product pages</p>
-              <p class="pb-1">Contact form</p>
-              <p class="pb-1">Gallery</p>
-              <p class="pb-1">Blog setup</p>
-              <p class="pb-1">Shopping cart integration and programming</p>  
-              <p class="pb-1">Digital marketing setup (SEO)</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <p class="text-center text-dark px-5 pt-5">All plans also include website hosting and monthly traffic reports. The best way to get all the info is by contacting us for a quick online meeting.</p>
-        </div>
-      </div>
-      </div>
-    </section> --}}
-
-    <section id="bio" class="p-5 text-justify back-light">
+    <section id="bio" class="p-5 text-justify bg-light">
       <div class="py-5">
-        <div class="main py-5 d-flex flex-column justify-content-center">
+        <div class="main d-flex flex-column justify-content-center">
           <h1 class="text-center">LATEST BLOG POSTS</h1>
-          <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-around">
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
+          <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-around mt-4">
             <div class="cards">
               <img src="/images/header_img.jpg" class="card-img-top" alt="...">
               <div class="card-body">

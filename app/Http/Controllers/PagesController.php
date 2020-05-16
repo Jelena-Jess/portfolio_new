@@ -54,7 +54,22 @@ class PagesController extends Controller
         $title='Blog';
         return view('pages.blog')->with('title', $title);
         }
-        
+    public function blog_coding(){
+        $title='Posts on coding';
+        return view('pages.blog_coding')->with('title', $title);
+        }
+    public function blog_design(){
+        $title='Posts on web design';
+        return view('pages.blog_design')->with('title', $title);
+        }
+    public function blog_inspiration(){
+        $title='Posts to insire you';
+        return view('pages.blog_inspiration')->with('title', $title);
+        }
+    public function blog_post(){
+        $title='';
+        return view('pages.blog_post')->with('title', $title);
+        }
         
 }
 

@@ -6,12 +6,12 @@
     <section class="col-12 py-5 text-justify back-light">
       <div class="main py-5">
         <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-          <div class="center-split px-lg-5 px-md-4">
+          <div class="animate-left center-split px-lg-5 px-md-4">
             <h3 class="text-center text-dark">Your personal stamp</h3>
             <p>A successful logo is simple and representative of the company it stands for.</p>
             <p>Designing a small visual representation of an entire company can be a daunting task, but if the process is done correctly, a logo can be a very effective marketing device.</p>
           </div>
-          <div class="center-split">
+          <div class="animate-right center-split">
             <img src="/images/portfolio.png" alt="">
           </div>
         </div>

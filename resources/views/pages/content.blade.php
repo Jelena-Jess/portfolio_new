@@ -3,23 +3,28 @@
 @section('content')
 <main role="main" class="m-auto">
 
-  <section class="col-12 py-5 text-justify back-light">
+  <section class="col-12 py-5 text-justify bg-light">
     <div class="main">
       <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-        <div class="center-split px-lg-5 px-md-4">
+        <div class="animate-left center-split px-lg-5 px-md-4">
           <h3 class="text-center text-dark">All of the websites that we create have been tailor-made and coded from scratch.</h3>
         </div>
-        <div class="center-split">
+        <div class="animate-right center-split">
           <img src="/images/content.png" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="col-12 py-5 text-justify back-light">
+  <section class="col-12 py-5 text-justify bg-grey">
     <div class="main py-5">
-      <h1 class="text-center pb-4">Why Is Content Important?</h1>
-      <div class="d-flex flex-column align-items-center">
+      <h1 class="text-center">Why Is Content Important?</h1>
+      <div class="separator">
+        <div class="line line-left"></div>
+        <div class="asterisk"><i class="fas fa-circle"></i></div>
+        <div class="line line-right"></div>
+      </div>
+      <div class="d-flex flex-column align-items-center pt-4">
         <div>
            <p class="text-center">
           Content creation is the ultimate inbound marketing practice. When you create content, you’re providing free and useful information to your audience, attracting potential customers to your website, and retaining existing customers through quality engagement.

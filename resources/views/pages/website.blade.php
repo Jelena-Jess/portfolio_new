@@ -3,16 +3,16 @@
 @section('content')
 <main id="main" role="main" class="m-auto">
 
-  <section class="col-12 py-5 text-justify back-light">
+  <section class="col-12 py-5 text-justify bg-light">
     <div class="main py-5">
       <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-        <div class="center-split px-lg-5 px-md-4">
+        <div class="animate-left center-split px-lg-5 px-md-4">
           {{-- <p>The website design process starts with a sketch. First, we discuss wireframes, page layouts, and menu structures. Digital design concepts are then created. You will be presented with a variety of website design concepts to review. Feedback on the design concepts is essential to give you the opportunity to express your thoughts on the design and make alterations where desired before the final sign-off.</p>
           <p>Once the design has been finalised, the creation of the website can begin. The website development process starts by taking the graphical elements (colours, fonts, layout, images) defined in the design process and coding them using web industry standards (PHP, HTML5, CSS3, JS, jQuery). This is typically done by first coding the home page, followed by templates for the interior pages. When the website is ready for review you will be supplied with login details to view the website before it is launched to the public. You will also be supplied with instructions on how to update your website.</p> --}}
           <h3 class=" text-center text-dark">All of the websites that we create have been tailor-made and coded from scratch.</h3>
           <p class="p-big"> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</p>
         </div>
-        <div class="center-split">
+        <div class="animate-right center-split">
           <img src="/images/code.png" alt="">
         </div>
       </div>
@@ -21,10 +21,15 @@
     </div>
   </section>
 
-  <section id="tech" class="py-5 back-pink">
+  <section id="tech" class="py-5 bg-grey">
     <div class="main py-5 container-fluid">
       <h2 class="text-center text-dark"><a id="plans">TECHNOLOGIES THAT CREATE WONDERS</a></h2>
-      <div class="row">
+      <div class="separator">
+        <div class="line line-left"></div>
+        <div class="asterisk"><i class="fas fa-circle"></i></div>
+        <div class="line line-right"></div>
+      </div>
+      <div class="row mt-5">
         <div class="pl-5 ml-5 col-sm col-sm-12 col-md-6 pb-sm-5 m-auto">
           <p class="p-big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolores magnam voluptates minus aliquam eos, perspiciatis, pariatur repudiandae ea quidem molestias omnis vitae iure fugiat beatae. Possimus deleniti accusantium molestias ducimus</p>
         </div>
@@ -67,9 +72,14 @@
     </div>
 </section>
 
-  <section id="plans" class="py-5 back-dark">
+  <section id="plans" class="py-5 bg-dark">
     <div class="monthly-plans py-5">
       <h2 class="text-center text-light"><a id="plans">WEBSITE SERVICES</a></h2>
+      <div class="separator">
+        <div class="line line-left"></div>
+        <div class="asterisk"><i class="fas fa-circle"></i></div>
+        <div class="line line-right"></div>
+      </div>
       <div class="d-flex flex-column justify-content-center">
         <p class=" mt-4 mb-5 text-center text-light">
           Websites are a necessity to compete in today’s business landscape. We offer a few different types of web design services, including templates, semi-custom, and fully custom websites. Each of our web design offerings includes a dedicated account manager, an in-depth kickoff meeting, a 40+ step post-launch SEO checklist, and more. We build most of our websites on WordPress, the web’s most popular content management system and all our websites are built to be responsive, meaning they work on any tablet or mobile phone.
@@ -152,20 +162,25 @@
 
   
 
-  <section id="plans" class="py-5 back-light">
+  <section id="plans" class="py-5 bg-light">
     <div class="main">
-     <div>
-      <h2 class="text-center text-dark py-5">TERMINOLOGY</h2>
-        <div class="d-flex flex-wrap justify-content-center">
+     <div class="py-5">
+      <h2 class="text-center text-dark">TERMINOLOGY</h2>
+      <div class="separator">
+        <div class="line line-left"></div>
+        <div class="asterisk"><i class="fas fa-circle"></i></div>
+        <div class="line line-right"></div>
+      </div>
+        <div class="d-flex flex-wrap justify-content-center mt-5">
 
-          <div class="card back-dark">
+          <div class="card">
             <div class="card-body">
               <div class="text-center pt-2 pb-4"><i class="fas fa-palette fa-4x text-light"></i></div>
               <h4 class="card-title text-light text-center">CUSTOM DESIGN</h4>
               <p class="card-text text-light"> the visual design, UX design, imagery collection, and sitemap and page structure generation.</p>
             </div>
           </div>
-          <div class="card back-pink">
+          <div class="card">
             <div class="card-body">
               <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">INFORMATION ARCHITECTURE</h4>
@@ -245,18 +260,6 @@
          
         </div>
       </div>
-  </section>
-
- 
-
-
-  <section id="plans" class="py-5 back-light">
-    <div class="main pb-5">
-      <div class="col-12 py-3 border-top">
-        <h5 class="nav-link float-left"><i class="fas fa-angle-left"></i><a class="nav-page" href="/content">Content Writing</a></h5>
-        <h5 class="nav-link float-right"><a class="nav-page" href="/logo">Logo Design</a><i class="fas fa-angle-right"></i></h5>
-      </div>
-    </div>
   </section>
   </main>
     

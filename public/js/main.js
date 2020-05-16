@@ -58,8 +58,33 @@ $(document).ready(function() {
 });
 
 //SCROLL REVEAL
-window.sr = ScrollReveal({ duration: 2000 });
+window.sr = ScrollReveal({ duration: 1000 });
 sr.reveal('.reveal');
+
+sr.reveal('.animate-left', {
+  easing: 'ease-in-out',
+  origin: 'left',
+  distance: '10rem',
+  delay: 300
+});
+sr.reveal('.animate-right', {
+  easing: 'ease-in-out',
+  origin: 'right',
+  distance: '10rem',
+  delay: 300
+});
+sr.reveal('.animate-top', {
+  easing: 'ease-in-out',
+  origin: 'top',
+  distance: '10rem',
+  delay: 600
+});
+sr.reveal('.animate-bottom', {
+  easing: 'ease-in-out',
+  origin: 'bottom',
+  distance: '10rem',
+  delay: 600
+});
 
 //ACCORDION
 var acc = document.getElementsByClassName("accordion");
@@ -119,3 +144,5 @@ center.addEventListener('mouseenter', () => {
 center.addEventListener('mouseleave', () => {
   footerupper.classList.remove('hover-center');
 });
+
+

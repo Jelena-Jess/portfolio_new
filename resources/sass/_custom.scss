@@ -10,6 +10,9 @@ html, body {
   background-position: 0px 0px;
   top: 0;
 }
+body {
+  overflow-x: hidden;
+}
 .container {
   flex: 1;
   max-width: 100vw;
@@ -50,6 +53,18 @@ html, body {
   background-color: $bg-grey !important;
 }
 
+.bg-pink {
+  background-color: $button !important;
+}
+
+.bg-light-pink {
+  background-color: $light-pink !important;
+}
+
+.bg-very-light-pink {
+  background-color: $very-light-pink !important;
+}
+
 .pink-text {
   color: $strong-pink;
 }
@@ -67,6 +82,7 @@ html, body {
   background-color: $bg-grey;
   z-index: -1;
 }
+
 
 
 
@@ -134,6 +150,49 @@ td, th {
 //   color: #fff;
 // }
 
+
+/******* LINE SEPARATOR ********/
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 100%;
+  max-width: 10rem;
+  height: .15rem;
+  background-color: $button;
+  position: relative;
+  border-radius: 50%;
+}
+
+// .line-right::before,
+// .line-left::before {
+//   content: '';
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   border: .4rem solid transparent;
+// }
+
+// .line-right::before {
+//   border-right-color: $button;
+//   right: 0;
+// }
+
+// .line-left::before {
+//   border-left-color: $button;
+//   left: 0;
+// }
+
+.fa-circle {
+  color: $button !important;
+  font-size: 8px;
+  padding: 10px;
+  margin: auto;
+}
 
 /******* TIMELINE ********/
 #timeline h3, h4{
@@ -235,23 +294,35 @@ td, th {
 }
 
 .card {
+  background-color: $bg-light;
   width: 30%;
 }
 
+.blog-card {
+  background-color: $bg-light;
+  width: 30%;
+}
+.blog-card:hover {
+  -webkit-box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+  -moz-box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+  box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+}
+.blog-card a:hover {
+  text-decoration: none;
+}
+
+
 /******* BLOG ********/
-.blog-post{
-  border: 1px solid $very-light-pink;
-  border-radius: 2%;
-  margin: 10px 0;
+.blog {
+  width: 45%;
 }
-.blog-post-intro:hover {
-  background-color: $very-light-pink;
-}
+
+/******* BLOG IMAGE ZOOM ********/
 .inner {
   overflow: hidden;
 }
 .inner img {
-  transition: all 1s ease;
+  transition: all 0.5s ease-in-out;
 }
 .inner:hover img {
   transform: scale(0.5);
@@ -440,8 +511,9 @@ img {
     width: 70%;
   }
   .card {
-    width: 27%;
+    width: 30%;
   }
+ 
 }
 
 @media all and (max-width:992px){
@@ -477,9 +549,12 @@ img {
   }
     
   .card {
-    width: 40%;
+    width: 30%;
   }
   .plan-box {
+    width: 80%;
+  }
+  .blog {
     width: 80%;
   }
 }
@@ -539,14 +614,18 @@ img {
     width: 70%;
     margin: 10px auto !important;
   }
+  .card {
+    width: 60%;
+  }
   .center-split {
+    width: 80%;
+  }
+  .blog {
     width: 80%;
   }
 }
 
 @media screen and (min-width:401px) and (max-width:600px){
-
-
 
   .center-split {
     width: 80%;
@@ -650,6 +729,12 @@ img {
     width: 70%;
     margin: 10px auto !important;
   }
+  .card {
+    width: 60%;
+  }
+  .blog {
+    width: 80%;
+  }
 }
 
 @media all and (max-width:400px){
@@ -740,5 +825,11 @@ img {
   .cards {
     width: 70%;
     margin: 10px auto !important;
+  }
+  .card {
+    width: 60%;
+  }
+  .blog {
+    width: 80%;
   }
 }
