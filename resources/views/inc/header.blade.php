@@ -1,6 +1,7 @@
  <header class="header">
  
-  <div class="d-flex flex-column section bd-highlight">
+  <section class="d-flex section flex-column bd-highlight">
+    <img src="/images/header_img.jpg" alt="" class="parallax">
     <div class="section-blur">
       <div class="align-items-start">
         @include('inc.navbar')
@@ -25,7 +26,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 </header>
 

@@ -17,12 +17,11 @@
   transform: translateX(-50%);
   box-shadow: -3px 3px 10px rgba(0,0,0,0.3) !important;
   font-family: 'Cairo', sans-serif;
-}
-
-.button:hover {
-  border-color: $button;
-  text-decoration: none;
-  color: #fff;
+  &:hover{
+    border-color: $button;
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .btn {
@@ -36,11 +35,11 @@
   padding: 0.5rem 2rem !important;
   font-size: 1.1rem;
   font-family: 'Cairo', sans-serif;
-}
-.btn:hover {
-  color: #fff;
-  border: solid $button 2px;
-  border-radius: 5px;
+  &:hover {
+    color: #fff;
+    border: solid $button 2px;
+    border-radius: 5px;
+  }
 }
 
 
@@ -61,9 +60,9 @@
   display: none;
   cursor: pointer;
   text-align: center;
-}
-.gotop:hover {
-  color: #fff;
+  &:hover {
+    color: #fff;
+  }
 }
 
 @media all and (max-width:992px){

@@ -3,7 +3,7 @@
 @section('content')
 <main id="main" role="main" class="m-auto">
 
-  <section class="col-12 py-5 text-justify bg-light">
+  <section class="py-5 text-justify bg-light">
     <div class="main py-5">
       <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
         <div class="animate-left center-split px-lg-5 px-md-4">

@@ -1,43 +1,41 @@
 //TIMELINE
-const items = document.querySelectorAll('#timeline li');
+// const items = document.querySelectorAll('#timeline li');
 
-const isInViewport = el => {
-  const rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && 
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-};
+// const isInViewport = el => {
+//   const rect = el.getBoundingClientRect();
+//   return (
+//     rect.top >= 0 &&
+//     rect.left >= 0 &&
+//     rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && 
+//     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+//   );
+// };
 
-const run = () =>
-items.forEach(item => {
-  if (isInViewport(item)) {
-    item.classList.add('show');
-  }
-});
+// const run = () =>
+// items.forEach(item => {
+//   if (isInViewport(item)) {
+//     item.classList.add('show');
+//   }
+// });
 
-window.addEventListener('load', run);
-window.addEventListener('resize', run);
-window.addEventListener('scroll', run);
+// window.addEventListener('load', run);
+// window.addEventListener('resize', run);
+// window.addEventListener('scroll', run);
 
 //NAVBAR
-$(document).ready(function() {
 
-$(window).scroll(function () { 
-  console.log($(window).scrollTop())
-if ($(window).scrollTop() > 850) {
-  $('.navbar').addClass('navbar-fixed');
-  $('.nav-link').addClass('nav-link-fixed');
-  $('.nav-link-small').addClass('nav-link-small-fixed');
-}
-if ($(window).scrollTop() < 851) {
-  $('.navbar').removeClass('navbar-fixed');
-  $('.nav-link').removeClass('nav-link-fixed');
-  $('.nav-link-small').removeClass('nav-link-small-fixed');
-}
-});
+const navbar = document.querySelector('.navbar');
+window.addEventListener('scroll', () => {
+  const scrollPos = window.scrollY;
+  if(scrollPos > 10){
+    navbar.classList.add('navbar-fixed');
+    navbar.classList.add('nav-link-fixed');
+    navbar.classList.add('nav-link-small-fixed');
+  }else{
+    navbar.classList.remove('navbar-fixed');
+    navbar.classList.remove('nav-link-fixed');
+    navbar.classList.remove('nav-link-small-fixed');
+  }
 });
 
 //BACK TO TOP BUTTON
@@ -84,6 +82,20 @@ sr.reveal('.animate-bottom', {
   origin: 'bottom',
   distance: '10rem',
   delay: 600
+});
+
+// PARALLAX
+window.addEventListener('scroll', function() {
+  const parallax = document.querySelector('.parallax');
+  let scrollPosition = window.pageYOffset;
+
+  parallax.style.transform = 'translateY(' + scrollPosition * .5 + 'px)';
+});
+window.addEventListener('scroll', function() {
+  const parallax = document.querySelector('.parallax-all');
+  let scrollPosition = window.pageYOffset;
+
+  parallax.style.transform = 'translateY(' + scrollPosition * .5 + 'px)';
 });
 
 //ACCORDION

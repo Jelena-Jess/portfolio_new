@@ -1,6 +1,7 @@
 <header class="header">
 
-  <div class="section_all bd-highlight">
+  <section class="section-all bd-highlight">
+    <img src="/images/header_img_pages.jpg" alt="" class="parallax-all">
     <div class="section-blur d-flex flex-column">
       <div class="pt-1">
         <div class="align-items-start">
@@ -13,16 +14,14 @@
             </button>
           </div>
         </div>
-        <div class="align-self-start d-lg-none d-xl-none pt-2 pl-5">
-          <a class="logo" href="/">FRIDAY SOLUTIONS
+          <a class="logo align-self-start d-lg-none d-xl-none pt-4 pl-5" href="/">FRIDAY SOLUTIONS
           </a>
-        </div>
       </div>
       <div class="header-title mt-auto mx-auto">
-        <h1 class="title-pages">{{$title}}</h1> 
+        <h1 class="animate-top title-pages">{{$title}}</h1> 
       </div>
     </div>
-  </div>
+  </section>
 </header>
 
 </div>

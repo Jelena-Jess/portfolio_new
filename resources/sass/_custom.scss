@@ -1,3 +1,11 @@
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+
 html, body {
   display: flex;
   flex-direction: column;
@@ -19,7 +27,6 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-
 .main{
   flex: 1;
   width: 80%;
@@ -83,26 +90,19 @@ body {
   z-index: -1;
 }
 
-
-
-
-.center-split {
-  width: 50%;
-}
-
-
+/***** FONTS *****/
 h1, h2, h3, h4, h5, h6{
   color: $bg-dark;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: $font-title;
 } 
 
 p {
-  font-family: 'Cairo', sans-serif;
+  font-family: $font-text;
   font-size: 18px;
 }
 
 .p-big {
-  font-family: 'Cairo', sans-serif;
+  font-family: $font-text;
   font-size: 20px;
 }
 
@@ -112,6 +112,13 @@ td, th {
   vertical-align: middle;
 }
 
+
+
+
+
+.center-split {
+  width: 50%;
+}
 
 
 
@@ -151,12 +158,10 @@ td, th {
 // }
 
 
-/******* LINE SEPARATOR ********/
+/******* LINE BELOW HEADINGS ********/
 
 .separator {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter(row);
 }
 
 .line {
@@ -233,11 +238,11 @@ td, th {
   width: 30%;
   border: 2px solid $bg-dark !important;
   position: relative;
-}
-.plan-box::before {
+  &::before {
   position: relative;
   Content: "";
   overflow: hidden;
+  }
 }
 .icon {
   position: absolute;
@@ -282,11 +287,10 @@ td, th {
   margin: 10px;
   width: 30%;
   border: 10px solid $very-light-pink;
-  border-radius: 2%;
-}
-
-.cards:hover {
-  background-color: $very-light-pink;
+  border-radius: 2%; 
+  &:hover {
+    background-color: $very-light-pink;
+  }
 }
 
 .card-body h4 {
@@ -301,11 +305,11 @@ td, th {
 .blog-card {
   background-color: $bg-light;
   width: 30%;
-}
-.blog-card:hover {
-  -webkit-box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
-  -moz-box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
-  box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+  &:hover {
+    -webkit-box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+    -moz-box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+    box-shadow: 0px 0px 38px 2px rgba(254,67,101,1);
+  }
 }
 .blog-card a:hover {
   text-decoration: none;
@@ -334,9 +338,7 @@ td, th {
 }
 .skills {
   width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter(row);
   border-right: 1px solid $strong-pink;
   padding-right: 5px;
 }
@@ -448,11 +450,9 @@ img {
   width: 60%;
 }
 
-/******* CIRCLES ********/
+/******* BALLS  ********/
 .help div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter(row);
   margin: 10px;
   width: 83px;
   height: 83px;
@@ -470,17 +470,13 @@ img {
   font-size: 17px;
   color: #fff;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.3);
-}
-
-.help div:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-	background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
-	background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(228, 131, 149), $bg-dark);
-	background-image: linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
-  background-color: rgb(228, 131, 149);
-  color: #fff;
+  &:hover{
+    background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(228, 131, 149), $bg-dark);
+    background-image: linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
+    background-color: rgb(228, 131, 149);
+    color: #fff;
+  }
 }
 
 
@@ -665,10 +661,8 @@ img {
     flex-direction: column;
   }
   .skills {
+    @include flexCenter(row);
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-right: none;
@@ -685,12 +679,10 @@ img {
   .img {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
   }
   img {
     width: 100%;
     height: auto;
-    padding: 10px;
   }
   .wide {
     width: 100%;
@@ -759,16 +751,6 @@ img {
 
   .skill {
     flex-direction: column;
-  }
-  .skills {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-right: none;
-    border-bottom: 1px solid $strong-pink;
   }
   .list {
     width: 100%;
