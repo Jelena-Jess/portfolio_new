@@ -3,15 +3,9 @@
 @section('content')
 <main role="main" class="m-auto">
 
-  <section>
-    <div class="text-center back-light pt-4">
-      <a href="" class="">Blog Home</a>
-    </div>
-  </section>
-
-  <section class="py-5 text-justify back-light">
+  <section class="py-5 back-light">
     <div class="main">
-      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
+      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center align-items-center">
         <div class="animate-left center-split px-lg-5 px-md-4">
           <p>We have a collection of articles on websites, video, infographics and small business marketing. Please choose from any category or see all the latest articles.</p>
         </div>
@@ -39,8 +33,8 @@
     </div>
   </section>
 
-  <section class="bg-light">
-    <div class="py-5">
+  <section class="bg-grey">
+    <div class="mx-5 py-5">
       <h1 class="text-center">LATEST POSTS</h1>
       
       <div class="separator">
@@ -49,53 +43,53 @@
         <div class="line line-right"></div>
       </div>
 
-      <div class="mx-5 pt-4 d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column text-align-center justify-content-center"> 
-        <div class="blog d-flex flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-center bg-grey m-4 mx-auto">
-          <div class="inner">
-            <a href="/blog/post"><img src="/images/blog.png" alt=""></a>
+      <div class="pt-4 d-flex flex-wrap text-align-center justify-content-center"> 
+        <div class="blog">
+          <div class="blog-image inner">
+            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
           </div>
-          <div class="p-3">
-            <h3><a href="/blog/post">Is My Website Targeting The Best Prospects?</a></h3>
+          <div class="blog-text p-3">
+            <h3 class="pt-3"><a href="/blog/post">Is My Website Targeting The Best Prospects?</a></h3>
             <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
             <p class="small">Jelena Petkov</p>
             <p class="small">13/05/2020</p>
           </div>
         </div>
-        <div class="blog d-flex flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-center bg-grey m-4 mx-auto">
-          <div class="inner">
-            <img src="/images/blog.png" alt="">
+        <div class="blog">
+          <div class="blog-image inner">
+            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
           </div>
-          <div class="p-3">
-            <h3>Is My Website Targeting The Best Prospects?</h3>
+          <div class="blog-text p-3">
+            <h3 class="pt-3"><a href="/blog/post">Is My Website Targeting The Best Prospects?</a></h3>
             <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
             <p class="small">Jelena Petkov</p>
             <p class="small">13/05/2020</p>
           </div>
         </div>
-        <div class="blog d-flex flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-center bg-grey m-4 mx-auto">
-          <div class="inner">
-            <img src="/images/blog.png" alt="">
+        <div class="blog">
+          <div class="blog-image inner">
+            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
           </div>
-          <div class="p-3">
-            <h3>Is My Website Targeting The Best Prospects?</h3>
+          <div class="blog-text p-3">
+            <h3 class="pt-3"><a href="/blog/post">Is My Website Targeting The Best Prospects?</a></h3>
             <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
             <p class="small">Jelena Petkov</p>
             <p class="small">13/05/2020</p>
           </div>
         </div>
-        <div class="blog d-flex flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column align-items-center bg-grey m-4 mx-auto">
-          <div class="inner">
-            <img src="/images/blog.png" alt="">
+        <div class="blog">
+          <div class="blog-image inner">
+            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
           </div>
-          <div class="p-3">
-            <h3>Is My Website Targeting The Best Prospects?</h3>
+          <div class="blog-text p-3">
+            <h3 class="pt-3"><a href="/blog/post">Is My Website Targeting The Best Prospects?</a></h3>
             <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
             <p class="small">Jelena Petkov</p>
             <p class="small">13/05/2020</p>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </section>
   
