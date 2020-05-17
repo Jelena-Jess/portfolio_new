@@ -11044,12 +11044,12 @@ h4 {
 /******* BOXES ********/
 
 .monthly-plans {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
 .bg {
-  width: 27vw;
+  width: 21vw;
   height: auto;
   margin: 0 5px;
   background-position: center;
@@ -11069,6 +11069,10 @@ h4 {
 
 .bg3 {
   background-image: url("/images/plan3.png");
+}
+
+.bg4 {
+  background-image: url("/images/plan4.png");
 }
 
 .plan-box {
@@ -11136,6 +11140,12 @@ h4 {
   width: 30%;
 }
 
+/******* BLOG ********/
+
+.blog {
+  width: 45%;
+}
+
 .blog-card {
   background-color: #f3e9ed;
   width: 30%;
@@ -11147,12 +11157,6 @@ h4 {
 
 .blog-card a:hover {
   text-decoration: none;
-}
-
-/******* BLOG ********/
-
-.blog {
-  width: 45%;
 }
 
 /******* BLOG IMAGE ZOOM ********/
@@ -11167,6 +11171,16 @@ h4 {
 
 .inner:hover img {
   transform: scale(0.5);
+}
+
+/******* BLOG POST PAGE ********/
+
+.blog-post img {
+  width: 80%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
 }
 
 /******* SKILLS ********/
@@ -11309,6 +11323,17 @@ img {
   color: #fff;
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+  .plan-boxes {
+    justify-content: center !important;
+  }
+
+  .bg {
+    width: 40vw;
+    margin: 20px;
+  }
+}
+
 @media screen and (min-width: 993px) and (max-width: 1200px) {
   .inbox {
     width: 75%;
@@ -11335,8 +11360,13 @@ img {
     margin: 0 auto;
   }
 
+  .plan-boxes {
+    justify-content: center !important;
+  }
+
   .bg {
-    width: 33%;
+    width: 35vw;
+    margin: 15px;
   }
 
   .contact-form {
@@ -11978,7 +12008,7 @@ img {
   }
 
   .sidebar .nav-item {
-    width: 30%;
+    width: 33%;
     margin: 0 auto;
     font-family: "Rajdhani", sans-serif;
   }
@@ -12025,6 +12055,12 @@ img {
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 810px) {
+  .sidebar .nav-item {
+    width: 40%;
+  }
+}
+
 @media screen and (min-width: 601px) and (max-width: 770px) {
   /***** HEADER *****/
 
@@ -12053,7 +12089,7 @@ img {
   }
 
   .sidebar .nav-item {
-    width: 50%;
+    width: 43%;
   }
 
   /***** FOOTER *****/
@@ -12065,6 +12101,12 @@ img {
   .footer-bottom div {
     width: 40%;
     margin-left: 5% !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 620px) {
+  .sidebar .nav-item {
+    width: 50%;
   }
 }
 
@@ -12100,7 +12142,7 @@ img {
   }
 
   .sidebar .nav-item {
-    width: 60%;
+    width: 55%;
   }
 }
 
@@ -12231,12 +12273,12 @@ img {
   width: 30%;
 }
 
-@media screen and (min-width: 601px) and (max-width: 770px) {
+@media all and (max-width: 900px) {
   .footer-upper {
     width: 100%;
     height: auto;
     background-color: #f3e9ed;
-    padding: 20px 0;
+    padding: 20px;
   }
 
   .split {
@@ -12248,7 +12290,7 @@ img {
     width: 80%;
     height: auto;
     left: 0;
-    margin: 10px auto;
+    margin: 20px auto;
   }
 
   .split.left {
@@ -12256,7 +12298,7 @@ img {
     width: 80%;
     height: auto;
     left: 0;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 20px auto;
     border: solid #e9dcde 10px;
   }
 
@@ -12265,83 +12307,7 @@ img {
     width: 80%;
     height: auto;
     left: 0;
-    margin: 10px auto 0 auto;
-  }
-}
-
-@media screen and (min-width: 401px) and (max-width: 600px) {
-  .footer-upper {
-    width: 100%;
-    height: auto;
-    background-color: #f3e9ed;
-    padding: 20px 0;
-  }
-
-  .split {
-    padding: 30px;
-  }
-
-  .split.center {
-    position: relative;
-    width: 80%;
-    height: auto;
-    left: 0;
-    margin: 10px auto;
-  }
-
-  .split.left {
-    position: relative;
-    width: 80%;
-    height: auto;
-    left: 0;
-    margin: 0 auto 10px auto;
-    border: solid #e9dcde 10px;
-  }
-
-  .split.right {
-    position: relative;
-    width: 80%;
-    height: auto;
-    left: 0;
-    margin: 10px auto 0 auto;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .footer-upper {
-    width: 100%;
-    height: auto;
-    background-color: #f3e9ed;
-    padding: 20px 0;
-  }
-
-  .split {
-    padding: 30px;
-  }
-
-  .split.center {
-    position: relative;
-    width: 80%;
-    height: auto;
-    left: 0;
-    margin: 10px auto;
-  }
-
-  .split.left {
-    position: relative;
-    width: 80%;
-    height: auto;
-    left: 0;
-    margin: 0 auto 10px auto;
-    border: solid #e9dcde 10px;
-  }
-
-  .split.right {
-    position: relative;
-    width: 80%;
-    height: auto;
-    left: 0;
-    margin: 10px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
 }
 

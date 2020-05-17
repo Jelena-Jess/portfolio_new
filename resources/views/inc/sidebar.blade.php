@@ -18,7 +18,7 @@
                 <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/logo">
                   LOGO DESIGN
                 </a>
-                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/content"> CONTENT CREATION
+                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="/content"> CONTENT MANAGEMENT
                 </a>
             </div>
         </li>

@@ -50,7 +50,7 @@
            <p class="p-big text-center font-weight-bold pb-2 text-dark">We see logo as your personal stamp.</p>
            <p>We see logo as your personal stamp. By using appropriate and effective colors, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
            <div class="text-center">
-             <a href="" class="btn">Learn more</a>
+             <a href="/logo" class="btn">Learn more</a>
            </div>
         </div>
       </div>
@@ -58,12 +58,12 @@
       <div class="split right">
         <div class="px-3 align-self-center">
           <p class="text-center"><i class="pt-4 fas fa-pencil-alt fa-4x text-dark"></i></p>
-          <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">Content Writing</h2>
+          <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">SEO & Content Management</h2>
         
           <p class="p-big text-center font-weight-bold pb-2 text-dark">A good story is the beginning of everything.</p>
           <p>Copywriting goes hand in hand with your website’s SEO (search engine optimisation), which enables Google to find your website when potential customers search for your products or services.</p>
           <div class="text-center">
-            <a href="" class="btn">Learn more</a>
+            <a href="/content" class="btn">Learn more</a>
           </div>
         </div>
       </div>

@@ -235,7 +235,7 @@
     padding: 0px !important;
   
     .nav-item {
-      width: 30%;
+      width: 33%;
       margin: 0 auto;
       font-family: $font-title;
     }
@@ -280,7 +280,11 @@
     }
 }
 
-
+@media screen and (min-width:769px) and (max-width:810px){
+  .sidebar .nav-item {
+    width: 40%;
+  } 
+}
 @media screen and (min-width:601px) and (max-width:770px){
 
 /***** HEADER *****/
@@ -305,7 +309,7 @@
     right: 4%;
     }
   .sidebar .nav-item {
-    width: 50%;
+    width: 43%;
   } 
 
   /***** FOOTER *****/
@@ -319,7 +323,11 @@
   
 }
 
-
+@media screen and (min-width:600px) and (max-width:620px){
+  .sidebar .nav-item {
+    width: 50%;
+  } 
+}
 @media screen and (min-width:401px) and (max-width:600px){
   /***** HEADER *****/
   .section_all {
@@ -345,7 +353,7 @@
     right: 5%;
   }
     .sidebar .nav-item {
-    width: 60%;
+    width: 55%;
   }
 }
 

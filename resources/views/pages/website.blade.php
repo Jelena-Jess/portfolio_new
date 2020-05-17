@@ -89,10 +89,10 @@
         </p>
       </div>
      
-      <div class="p-lg-4 p-md-2 py-5 pb-md-0 pb-sm-0 pb-0 d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between">
+      <div class="plan-boxes p-lg-4 p-md-2 py-5 pb-md-0 pb-sm-0 pb-0 d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between">
         <div class="bg bg1 p-4">
           <div class="text-center">
-            <h2 class="text-light pb-5">TEMPLATE WEBSITES</h2>
+            <h2 class="text-dark pb-5">TEMPLATE WEBSITES</h2>
             {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
             <p class="pb-1">Mobile friendly design</p>
             <p class="pb-1">Logo design</p>
@@ -109,7 +109,7 @@
         </div>
         <div class="bg bg2 p-4">
           <div class="text-center">
-            <h2 class="text-light pb-5">CUSTOM WEBSITES</h2>
+            <h2 class="text-dark pb-5">CUSTOM WEBSITES</h2>
             {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
             <p class="pb-1">Mobile friendly design</p>
             <p class="pb-1">Logo design</p>
@@ -129,7 +129,7 @@
 
         <div class="bg bg3 p-4">
           <div class="text-center">
-            <h2 class="text-light pb-5">WEBSITE REDESIGNS & ADD-ONS</h2>
+            <h2 class="text-dark pb-5">WEBSITE REDESIGNS & ADD-ONS</h2>
             {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
             <p class="pb-1">Mobile friendly design</p>
             <p class="pb-1">Logo design</p>
@@ -148,9 +148,52 @@
             </p>
           </div>
         </div>
+
+        <div class="bg bg4 p-4">
+          <div class="text-center">
+            <h2 class="text-dark pb-5">WEBSITE MAINTENANCE</h2>
+            {{-- <p class="pt-5 pb-1">Custom design / Information architecture</p>
+            <p class="pb-1">Mobile friendly design</p>
+            <p class="pb-1">Logo design</p>
+            <p class="pb-1">Website content creation</p>
+            <p class="pb-1">Service and product pages</p>
+            <p class="pb-1">Contact form</p>
+            <p class="pb-1">Gallery</p>
+            <p class="pb-1">Blog setup</p>
+            <p class="pb-1">Shopping cart integration and programming</p>  
+            <p class="pb-1">Digital marketing setup (SEO)</p> --}}
+            <p>
+              We manage websites for clients who want to get on with running their business safe in the knowledge their website is up to date and always online.
+              Our web master team members are dedicated to providing client-service focused on website and application maintenance.
+            </p>
+            <p>
+              Web site maintenance services include:
+
+              Website management,performance and uptime monitoring
+              Software security updates
+              Server updates & upgrades
+              Site backups
+              Ongoing Search Engine Optimisation
+              New ideas and features developments
+              Malware and hack detection
+              On-call web support / webmaster services
+              Each maintenance package is designed for both the size and the needs of your company.
+            </p>
+            <p>SUPPORT & MAINTENACE SERVICES
+              Maintenance and technical support
+              Monitoring 24/7
+              Hosting & domains managment
+              Website Data Migrations
+              Product Testing
+              Email migration
+              Web Security
+              SSL certificate</p>
+          </div>
+        </div>
+
       </div>
       <div>
-        <p class="text-center text-light px-5 pt-5">All plans also include website hosting and monthly traffic reports. The best way to get all the info is by contacting us for a quick online meeting.</p>
+        <p class="text-center text-light px-5 pt-5">All plans also include website hosting and monthly performance audits. The best way to get all the info is by contacting us for a quick online meeting.</p>
       </div>
        
       <div>

@@ -4,8 +4,8 @@
 <main role="main" class="m-auto">
 
   <section>
-    <div class="text-center bg-light-pink">
-      <h3><a href="" class="">Blog Home -> Coding</a></h3>
+    <div class="text-center back-light pt-4">
+      <a href="/blog" class="">Blog Home</a> &rarr; <a href="" class="">Inspiration
     </div>
   </section>
 

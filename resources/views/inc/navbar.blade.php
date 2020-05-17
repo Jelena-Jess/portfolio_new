@@ -16,7 +16,7 @@
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/website">WEBSITE DESIGN</a>
             <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/logo">LOGO DESIGN</a>
-            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/content">CONTENT CREATION</a>
+            <a class="dropdown-item nav-link-small hvr-underline-from-center" href="/content">CONTENT MANAGEMENT</a>
           </div>
         </li>
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">

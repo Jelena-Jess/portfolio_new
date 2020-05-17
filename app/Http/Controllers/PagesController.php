@@ -41,7 +41,7 @@ class PagesController extends Controller
         }
 
     public function content(){
-        $title='Content creation';
+        $title='Content management';
         return view('pages.content')->with('title', $title);
         }
 
